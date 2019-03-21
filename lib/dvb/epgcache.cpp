@@ -2167,7 +2167,7 @@ void eEPGCache::channel_data::readData( const uint8_t *data, int source)
 	int map;
 	iDVBSectionReader *reader = NULL;
 #ifdef __sh__
-/* Dagobert: this is still very hacky, but currently I cant find
+/* Dagobert: this is still very hacky, but currently I cannot find
  * the origin of the readData call. I think the caller is
  * responsible for the unaligned data pointer in this call.
  * So we malloc our own memory here which _should_ be aligned.
@@ -2177,7 +2177,7 @@ void eEPGCache::channel_data::readData( const uint8_t *data, int source)
  * e2 and all libs into an IDE for better overview ;)
  *
  */
-	const uint8_t *aligned_data;
+	const __u8 *aligned_data;
 	bool isNotAligned = false;
 
 	if ((unsigned int) data % 4 != 0)
@@ -2185,6 +2185,7 @@ void eEPGCache::channel_data::readData( const uint8_t *data, int source)
 
 	if (isNotAligned)
 	{
+		/* see HILO macro and eit.h */
 		int len = ((data[1] & 0x0F) << 8 | data[2]) -1;
 
 		/*eDebug("len %d %x, %x %x\n", len, len, data[1], data[2]);*/
@@ -2192,7 +2193,7 @@ void eEPGCache::channel_data::readData( const uint8_t *data, int source)
 		if ( EIT_SIZE >= len )
 			return;
 
-		aligned_data = (const uint8_t *) malloc(len);
+		aligned_data = (const __u8 *) malloc(len);
 
 		if ((unsigned int)aligned_data % 4 != 0)
 		{
@@ -2200,7 +2201,7 @@ void eEPGCache::channel_data::readData( const uint8_t *data, int source)
 		}
 
 		/*eDebug("%p %p\n", aligned_data, data); */
-		memcpy((void *) aligned_data, (const uint8_t *) data, len);
+		memcpy((void *) aligned_data, (const __u8 *) data, len);
 		data = aligned_data;
 	}
 #endif
