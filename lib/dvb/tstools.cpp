@@ -171,7 +171,7 @@ int eDVBTSTools::getPTS(off_t &offset, pts_t &pts, int fixed)
 			if (match != NULL)
 			{
 #if defined(__sh__)
-                eDebug("[eDVBTSTools] getPTS resync %ld", (long int)(match - packet));
+				eDebug("[eDVBTSTools] getPTS resync %ld", (long int)(match - packet));
 #else
 				eDebug("[eDVBTSTools] getPTS resync %ld", match - packet);
 #endif
@@ -416,6 +416,7 @@ int eDVBTSTools::getOffset(off_t &offset, pts_t &pts, int marg)
 					takeSamples();
 					continue;
 				}
+
 #if defined(__sh__)
 				eDebug("[eDVBTSTools] getOffset using: %lld:%lld -> %ld:%ld", l->first, u->first, (long int)l->second, (long int)u->second);
 #else
@@ -698,7 +699,7 @@ int eDVBTSTools::takeSample(off_t off, pts_t &p)
 				{
 					eDebug("[eDVBTSTools] takeSample ignoring sample %ld %jd %ld (%llu %llu %llu)",
 #if defined(__sh__)
-                        (long int)l->second, (intmax_t)off, (long int)u->second, l->first, p, u->first);
+						(long int)l->second, (intmax_t)off, (long int)u->second, l->first, p, u->first);
 #else
 						l->second, (intmax_t)off, u->second, l->first, p, u->first);
 #endif
