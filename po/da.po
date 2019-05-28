@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -1739,6 +1739,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Kan bliver brugt når der er forskel i fps mellem eksterne undertekster og videoen"
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2787,6 +2805,11 @@ msgstr "DVD afspiller"
 #
 msgid "DVD titlelist"
 msgstr "DVD titelliste"
+
+#
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD afspiller"
 
 #
 msgid "Danish"
@@ -4607,6 +4630,9 @@ msgstr "Hotkey Setup"
 msgid "Hotkey zap"
 msgstr "Hotkey zap"
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "Hvor mange minutter vil du tilføje til optagelsen?"
@@ -5956,6 +5982,10 @@ msgstr ""
 "Ingen HDD fundet eller\n"
 "HDD ikke initialiseret!."
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Ingen opdateringer tilgængelig."
+
 msgid "No age block"
 msgstr "Ingen aldersbegrænsning"
 
@@ -6506,12 +6536,20 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 #
 msgid "Play"
 msgstr "Afspil"
 
 #
 msgid "Play DVD"
+msgstr "Afspil DVD"
+
+#
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Afspil DVD"
 
 #
@@ -9061,6 +9099,9 @@ msgstr ""
 
 msgid "Social/Political/Economics"
 msgstr "Social/Politik/Økonomi"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
@@ -12477,6 +12518,10 @@ msgstr "normal listestil"
 msgid "list style single line"
 msgstr "enkelt linie listestil"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Juster begivenheder."
+
 msgid "literature"
 msgstr "litteratur"
 
@@ -12926,6 +12971,14 @@ msgstr "drop tilbage"
 #
 msgid "skip forward"
 msgstr "drop fremad"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -1562,6 +1562,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2498,6 +2516,10 @@ msgstr "DVD player"
 
 msgid "DVD titlelist"
 msgstr "DVD titlelist"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD player"
 
 msgid "Danish"
 msgstr "Danish"
@@ -4115,6 +4137,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "How many minutes do you want to record?"
@@ -5289,6 +5314,10 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "No HDD found or HDD not initialized!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "No updates available"
+
 msgid "No age block"
 msgstr ""
 
@@ -5775,10 +5804,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Play"
 
 msgid "Play DVD"
+msgstr "Play DVD"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Play DVD"
 
 msgid "Play audio-CD..."
@@ -8012,6 +8048,9 @@ msgstr ""
 
 msgid "Social/Political/Economics"
 msgstr "Social/Political/Economics"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
@@ -11023,6 +11062,9 @@ msgstr "list style default"
 msgid "list style single line"
 msgstr "list style single line"
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr "literature"
 
@@ -11409,6 +11451,14 @@ msgstr "skip backward"
 
 msgid "skip forward"
 msgstr "skip forward"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

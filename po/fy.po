@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2008-12-29 16:22+0100\n"
 "Last-Translator: gerrit <gerrit@nedlinux.nl>\n"
 "Language-Team: gerrit <fy@li.org>\n"
@@ -1723,6 +1723,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2789,6 +2807,11 @@ msgstr "DVD Spieler"
 #, fuzzy
 msgid "DVD titlelist"
 msgstr "wyte lyst"
+
+#
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD Spieler"
 
 #
 msgid "Danish"
@@ -4625,6 +4648,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
@@ -6004,6 +6030,9 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "Gjin hurde skiif fûn of HDD net formatearre!"
 
+msgid "No active subservices available."
+msgstr ""
+
 msgid "No age block"
 msgstr ""
 
@@ -6570,6 +6599,9 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 #
 msgid "Play"
 msgstr "Ofspylje"
@@ -6577,6 +6609,11 @@ msgstr "Ofspylje"
 #
 msgid "Play DVD"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Play DVDs"
+msgstr "Ofspylje"
 
 #
 #, fuzzy
@@ -9173,6 +9210,9 @@ msgid "Smooth"
 msgstr ""
 
 msgid "Social/Political/Economics"
+msgstr ""
+
+msgid "SocketMMI"
 msgstr ""
 
 msgid "SoftCam / CI"
@@ -12557,6 +12597,9 @@ msgstr "lyst styl standert"
 msgid "list style single line"
 msgstr "lyst styl ien rigele"
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr ""
 
@@ -13007,6 +13050,14 @@ msgstr "efterút oerslaan"
 #
 msgid "skip forward"
 msgstr "foarút oerslaan"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

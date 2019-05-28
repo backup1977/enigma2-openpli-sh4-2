@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2015-08-30 09:00+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -1788,6 +1788,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Lahko je uporabljen za različne sličice na sekundo (fps) med zunanjimi podnapisi in posnetki."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2835,6 +2853,11 @@ msgstr "DVD predvajalnik"
 #
 msgid "DVD titlelist"
 msgstr "DVD seznam naslovov"
+
+#
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD predvajalnik"
 
 #
 msgid "Danish"
@@ -4688,6 +4711,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
@@ -6045,6 +6071,10 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "Trdega diska ni mogoče dodati!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Posodobitve niso na voljo!"
+
 msgid "No age block"
 msgstr ""
 
@@ -6599,12 +6629,20 @@ msgstr "Daljinec"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 #
 msgid "Play"
 msgstr "Predvajaj"
 
 #
 msgid "Play DVD"
+msgstr "Predvajajte DVD"
+
+#
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Predvajajte DVD"
 
 #
@@ -9222,6 +9260,9 @@ msgid "Smooth"
 msgstr ""
 
 msgid "Social/Political/Economics"
+msgstr ""
+
+msgid "SocketMMI"
 msgstr ""
 
 #
@@ -12640,6 +12681,10 @@ msgstr "privzet način seznama"
 msgid "list style single line"
 msgstr "enovrstični način seznama"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Poravnava dogodkov"
+
 msgid "literature"
 msgstr ""
 
@@ -13095,6 +13140,14 @@ msgstr "Preskok nazaj"
 #
 msgid "skip forward"
 msgstr "Preskok naprej"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

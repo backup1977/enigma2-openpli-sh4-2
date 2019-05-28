@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -1568,6 +1568,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2536,6 +2554,10 @@ msgstr "เครื่องเล่นดีวีดี"
 #, fuzzy
 msgid "DVD titlelist"
 msgstr "รายการบนแผ่นดีวีดี"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "เครื่องเล่นดีวีดี"
 
 msgid "Danish"
 msgstr "ภาษาเดนมาร์ก"
@@ -4188,6 +4210,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "บันทึกรายต่อไปอีกกี่นาที?"
@@ -5408,6 +5433,10 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "ไม่พบฮาร์ดดิสก์ (HDD) หรือยังไม่ได้เตรียมเพื่อให้ใช้งานได้"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr " มีรายการปรับปรุง"
+
 msgid "No age block"
 msgstr ""
 
@@ -5913,10 +5942,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "เล่น"
 
 msgid "Play DVD"
+msgstr "เล่นดีวีดี"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "เล่นดีวีดี"
 
 #, fuzzy
@@ -8215,6 +8251,9 @@ msgid "Smooth"
 msgstr ""
 
 msgid "Social/Political/Economics"
+msgstr ""
+
+msgid "SocketMMI"
 msgstr ""
 
 msgid "SoftCam / CI"
@@ -11253,6 +11292,9 @@ msgstr "แสดงรูปแบบเริ่มต้น"
 msgid "list style single line"
 msgstr "แสดงแบบบรรทัดเดียว"
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr ""
 
@@ -11638,6 +11680,14 @@ msgstr "ย้อนหลัง"
 
 msgid "skip forward"
 msgstr "ข้ามไป"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

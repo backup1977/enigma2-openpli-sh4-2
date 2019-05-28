@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2018-02-14 16:51+0330\n"
 "Last-Translator: Persian Prince <persianprince@pe4k.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
@@ -1568,6 +1568,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2531,6 +2549,10 @@ msgstr "پخش کننده DVD"
 #, fuzzy
 msgid "DVD titlelist"
 msgstr "لیست عنوان DVD"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "پخش کننده DVD"
 
 msgid "Danish"
 msgstr "دانمارکی"
@@ -4172,6 +4194,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "چند دقیقه میخواهید ضبط کنید؟"
@@ -5378,6 +5403,11 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "هارد پیدا نشد و یا هارد مقدار دهی اولیه نشده است"
 
+#
+#, fuzzy
+msgid "No active subservices available."
+msgstr "به روز رسانی های در دسترس"
+
 msgid "No age block"
 msgstr ""
 
@@ -5875,10 +5905,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "پخش"
 
 msgid "Play DVD"
+msgstr "پخش DVD"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "پخش DVD"
 
 #, fuzzy
@@ -8163,6 +8200,9 @@ msgstr "صاف"
 
 msgid "Social/Political/Economics"
 msgstr "اجتماعی/سیاسی/اقتصادی"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
@@ -11111,6 +11151,9 @@ msgstr ""
 msgid "list style single line"
 msgstr ""
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr ""
 
@@ -11493,6 +11536,14 @@ msgid "skip backward"
 msgstr ""
 
 msgid "skip forward"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
 msgstr ""
 
 #, python-format

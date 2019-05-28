@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Budiarno Pedode\n"
 "Language-Team: \n"
@@ -1572,6 +1572,24 @@ msgstr "Kamerun"
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Bisa digunakan untuk fps yg berbeda antara terjemahan dari luar dan video."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr "Hanya bisa menemukan drive jaringan untuk menyimpan cadangan artinya setelah flash maka pengembalian otomatis tidak bisa lagi. Pilihan lainnya, anda bisa me-mount drive jaringan setelah flash, dan melakukan parameter pabrik untuk pengembalian otomatis"
 
@@ -2516,6 +2534,10 @@ msgstr "Pemutar DVD"
 
 msgid "DVD titlelist"
 msgstr "Daftar judul DVD"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "Pemutar DVD"
 
 msgid "Danish"
 msgstr "Denmark"
@@ -4163,6 +4185,9 @@ msgstr "Pengaturan Tombol Pintas"
 msgid "Hotkey zap"
 msgstr "Zap tombol pintas"
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "Berapa menit anda ingin tambahkan ke perekaman?"
@@ -5347,6 +5372,10 @@ msgstr "Tidak tersedia ECMPids (Layanan FTA)"
 msgid "No HDD found or HDD not initialized!"
 msgstr "Tidak ditemukan HDD atau HDD tidak diformat!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Pembaruan tidak tersedia"
+
 msgid "No age block"
 msgstr "Umur tidak diblokir"
 
@@ -5833,10 +5862,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Mainkan"
 
 msgid "Play DVD"
+msgstr "Mainkan DVD"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Mainkan DVD"
 
 msgid "Play audio-CD..."
@@ -8075,6 +8111,9 @@ msgstr "Lembut"
 
 msgid "Social/Political/Economics"
 msgstr "Sosial/Politik/Ekonomi"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
@@ -11134,6 +11173,10 @@ msgstr "gaya daftar bawaan"
 msgid "list style single line"
 msgstr "gaya daftar baris tunggal"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Perataan acara"
+
 msgid "literature"
 msgstr "literatur"
 
@@ -11520,6 +11563,14 @@ msgstr "lewatkan mundur"
 
 msgid "skip forward"
 msgstr "lewatkan maju"
+
+#, fuzzy, python-format
+msgid "slot%s - %s"
+msgstr "slot%s - %s, dgn cadangan"
+
+#, fuzzy, python-format
+msgid "slot%s - %s (current image)"
+msgstr "slot%s - %s mode 1 (image saat ini)"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

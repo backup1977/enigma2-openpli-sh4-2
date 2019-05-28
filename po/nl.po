@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Frenske <voorzitter@openpli.org>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
@@ -1553,6 +1553,24 @@ msgstr ""
 "\n"
 "Dit kunt u instellen met de cursor R/L toetsen. U kunt hierbij kiezen van origineel of een waarde instellen van 23.976 - 30 fps."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr "Ik kan enkel een netwerkdevice vinden om de backup in op slaan waardoor herstellen na het flashen niet zal werken. Als alternatief kunt u na het flashen de netwerkdrive mounten en vervolgens een fabrieksreset en daarna een herstelbewerking uitvoeren. "
 
@@ -2641,6 +2659,10 @@ msgstr "DVD-speler"
 
 msgid "DVD titlelist"
 msgstr "DVD titellijst"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD-speler"
 
 msgid "Danish"
 msgstr "Deens"
@@ -4265,6 +4287,9 @@ msgstr "Instellen Hotkey plugin"
 msgid "Hotkey zap"
 msgstr "Hotkey zappen"
 
+msgid "Hotplug"
+msgstr ""
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Hoeveel minuten wilt u aan de opname toevoegen?"
 
@@ -5428,6 +5453,10 @@ msgstr "Geen ECMPids beschikbaar (FTA zender)"
 msgid "No HDD found or HDD not initialized!"
 msgstr "Geen harde schijf gevonden of de harde schijf is niet geïnitialiseerd!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Geen updates beschikbaar."
+
 msgid "No age block"
 msgstr "Geen leeftijdsbeperking"
 
@@ -5909,10 +5938,17 @@ msgstr "Navigatie"
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Afspelen"
 
 msgid "Play DVD"
+msgstr "DVD afspelen"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "DVD afspelen"
 
 msgid "Play audio-CD..."
@@ -8138,6 +8174,9 @@ msgstr "Zacht"
 
 msgid "Social/Political/Economics"
 msgstr "Sociaal/Politiek/Economisch"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "Softcam / CI"
@@ -11217,6 +11256,10 @@ msgstr "Weergave: Standaard"
 msgid "list style single line"
 msgstr "Weergave: Enkele regel"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Uitlijnen van gebeurtenissen"
+
 msgid "literature"
 msgstr "Literatuur"
 
@@ -11601,6 +11644,14 @@ msgstr "Achteruit springen"
 
 msgid "skip forward"
 msgstr "Vooruit springen"
+
+#, fuzzy, python-format
+msgid "slot%s - %s"
+msgstr "slot%s - %s modus 1"
+
+#, fuzzy, python-format
+msgid "slot%s - %s (current image)"
+msgstr "slot%s - %s mode 1 (huidige image)"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

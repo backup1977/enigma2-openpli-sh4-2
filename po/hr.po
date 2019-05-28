@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2019-05-12 07:10+0200\n"
 "Last-Translator: Željko <zeljko2@hi.ht.hr>\n"
 "Language-Team: Željko\n"
@@ -1558,6 +1558,24 @@ msgstr "Kamerun"
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Može se koristiti za različite fps između vanjskih titlova i videozapisa."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr "Može pronaći samo mrežni pogon za pohranu sigurnosne kopije, što znači da nakon flešanja autorestore neće raditi. Alternativno možete montirati mrežni pogon nakon flešanja i obaviti reset proizvođača na automatsko vračanje."
 
@@ -2478,6 +2496,10 @@ msgstr "DVD player"
 
 msgid "DVD titlelist"
 msgstr "DVD popis naslova"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD player"
 
 msgid "Danish"
 msgstr "Danski"
@@ -4087,6 +4109,9 @@ msgstr "HotKey postavke za postavljanje"
 msgid "Hotkey zap"
 msgstr "HotKey prebacivanje"
 
+msgid "Hotplug"
+msgstr ""
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Koliko minuta želite dodati snimci?"
 
@@ -5243,6 +5268,10 @@ msgstr "Nema dostupnih ECMPid (FTA usluga)"
 msgid "No HDD found or HDD not initialized!"
 msgstr "HDD nije pronađen ili nije inicijaliziran!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Nema dostupnih ažuriranja"
+
 msgid "No age block"
 msgstr "Nema dobne granice"
 
@@ -5719,10 +5748,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Reproducirati"
 
 msgid "Play DVD"
+msgstr "Reprodukcija DVD-a"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Reprodukcija DVD-a"
 
 msgid "Play audio-CD..."
@@ -7910,6 +7946,9 @@ msgstr "Glatko"
 
 msgid "Social/Political/Economics"
 msgstr "Socijalne/političke/ekonomske"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam / CI"
@@ -10912,6 +10951,10 @@ msgstr "zadani popis stilova"
 msgid "list style single line"
 msgstr "stil liste - jedan red"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Usklađivanje događaja"
+
 msgid "literature"
 msgstr "literatura"
 
@@ -11295,6 +11338,14 @@ msgstr "Preskočiti unatrag"
 
 msgid "skip forward"
 msgstr "Preskočiti naprijed"
+
+#, fuzzy, python-format
+msgid "slot%s - %s"
+msgstr "utor%s - %s način 1"
+
+#, fuzzy, python-format
+msgid "slot%s - %s (current image)"
+msgstr "utor%s - %s način 1 (trenutni image)"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

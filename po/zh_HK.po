@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: 王彪 <satfan@163.com>\n"
 "Language-Team: 中國\n"
@@ -1526,6 +1526,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2462,6 +2480,10 @@ msgstr ""
 
 msgid "DVD titlelist"
 msgstr ""
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "播放"
 
 msgid "Danish"
 msgstr "丹麥"
@@ -4070,6 +4092,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "您想錄製多少分鐘?"
@@ -5239,6 +5264,10 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "未找到硬碟或硬碟未初始化！"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "無可用的描述."
+
 msgid "No age block"
 msgstr ""
 
@@ -5725,10 +5754,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "播放"
 
 msgid "Play DVD"
+msgstr "播放DVD"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "播放DVD"
 
 msgid "Play audio-CD..."
@@ -7956,6 +7992,9 @@ msgid "Smooth"
 msgstr ""
 
 msgid "Social/Political/Economics"
+msgstr ""
+
+msgid "SocketMMI"
 msgstr ""
 
 msgid "SoftCam / CI"
@@ -10896,6 +10935,9 @@ msgstr "預設列表樣式"
 msgid "list style single line"
 msgstr "單行列表樣式"
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr ""
 
@@ -11283,6 +11325,14 @@ msgstr "快倒"
 
 msgid "skip forward"
 msgstr "快進"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

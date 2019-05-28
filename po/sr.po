@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2011-04-14 00:02+0200\n"
 "Last-Translator: majevica <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -1773,6 +1773,24 @@ msgstr ""
 msgid "Can be used for different fps between external subtitles and video."
 msgstr ""
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2852,6 +2870,11 @@ msgstr "DVD plejer"
 #, fuzzy
 msgid "DVD titlelist"
 msgstr "DVD lista naslova"
+
+#
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD plejer"
 
 #
 msgid "Danish"
@@ -4705,6 +4728,9 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotplug"
+msgstr ""
+
 #
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
@@ -6099,6 +6125,11 @@ msgstr ""
 msgid "No HDD found or HDD not initialized!"
 msgstr "Disk nije pronađen ili nije inicijaliziran!"
 
+#
+#, fuzzy
+msgid "No active subservices available."
+msgstr "ažuriranja dostupna."
+
 msgid "No age block"
 msgstr ""
 
@@ -6670,12 +6701,20 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr ""
 
+msgid "Pixels\n"
+msgstr ""
+
 #
 msgid "Play"
 msgstr "Reprodukuj"
 
 #
 msgid "Play DVD"
+msgstr "Reprodukuj DVD"
+
+#
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Reprodukuj DVD"
 
 #
@@ -9302,6 +9341,9 @@ msgid "Smooth"
 msgstr ""
 
 msgid "Social/Political/Economics"
+msgstr ""
+
+msgid "SocketMMI"
 msgstr ""
 
 msgid "SoftCam / CI"
@@ -12729,6 +12771,9 @@ msgstr "standardne postavke stila liste"
 msgid "list style single line"
 msgstr "kompaktni jednostruki stil liste"
 
+msgid "listens to hotplug events"
+msgstr ""
+
 msgid "literature"
 msgstr ""
 
@@ -13177,6 +13222,14 @@ msgstr "preskoči unazad"
 #
 msgid "skip forward"
 msgstr "preskoči unapred"
+
+#, python-format
+msgid "slot%s - %s"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr ""
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2018-11-12 20:51+0200\n"
 "Last-Translator: Мартин Петков <marto74bg@yahoo.co.uk>\n"
 "Language-Team: Bulgarian\n"
@@ -1553,6 +1553,24 @@ msgstr "Камерун"
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Може да се използва при различни fps между външни субтитри и видео."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr ""
 
@@ -2483,6 +2501,10 @@ msgstr "DVD плейър"
 
 msgid "DVD titlelist"
 msgstr "DVD списък на заглавията"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD плейър"
 
 msgid "Danish"
 msgstr "Датски"
@@ -4109,6 +4131,9 @@ msgstr "Настройка на Бързи Бутони"
 msgid "Hotkey zap"
 msgstr "Превключване Бързи Бутони"
 
+msgid "Hotplug"
+msgstr ""
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "Колко минути желаете да запишете?"
@@ -5273,6 +5298,10 @@ msgstr "Няма достъпни ECMPids (FTA канал)"
 msgid "No HDD found or HDD not initialized!"
 msgstr "HDD Не е намерен или не е инициализиран!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Няма налични актуализации"
+
 msgid "No age block"
 msgstr "Няма възрастово ограничение"
 
@@ -5754,10 +5783,17 @@ msgstr "Пилот"
 msgid "Pitcairn"
 msgstr "Питкерн"
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Възпроизвеждане"
 
 msgid "Play DVD"
+msgstr "Възпроизвеждане на DVD"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "Възпроизвеждане на DVD"
 
 msgid "Play audio-CD..."
@@ -7974,6 +8010,9 @@ msgstr "Гладък"
 
 msgid "Social/Political/Economics"
 msgstr "Социална/Политика/Економика"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "Емулатор / CI"
@@ -10992,6 +11031,10 @@ msgstr "Списък по подразбиране"
 msgid "list style single line"
 msgstr "Списък на един ред"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Подравняване на събития"
+
 msgid "literature"
 msgstr "литература"
 
@@ -11375,6 +11418,14 @@ msgstr "прескочи назад"
 
 msgid "skip forward"
 msgstr "прескочи напред"
+
+#, fuzzy, python-format
+msgid "slot%s - %s"
+msgstr "slot%s - %s режим 1"
+
+#, fuzzy, python-format
+msgid "slot%s - %s (current image)"
+msgstr "слот%s - %s режим 1 (текущ имидж)"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"

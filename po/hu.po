@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-11 22:12+0200\n"
+"POT-Creation-Date: 2019-05-25 06:50+0200\n"
 "PO-Revision-Date: 2019-04-23 16:45+0200\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
@@ -1547,6 +1547,24 @@ msgstr "Kamerun"
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Ha a film és a felirat eltérő FPS-el rendelkeznek, akkor itt adható ez meg a felirat számára."
 
+msgid ""
+"Can be used to test defect pixels on TV screen.\n"
+"\n"
+"Available color test screens:\n"
+"\n"
+"red\n"
+"green\n"
+"blue\n"
+"white\n"
+"black\n"
+"cyan\n"
+"magenta\n"
+"yellow\n"
+"\n"
+"Screens change with left/right buttons or use red, green, blue to toggle.\n"
+"Yellow for returning back to this intro"
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
 msgstr "Csak hálózati meghajtót találtunk a biztonsági mentés tárolásához, ez azt jelenti, hogy flashelés után nem lehetséges a biztonsági másolat automatikus visszaállítása. Alternatív megoldásként az automatikus visszaállításhoz a flashelés után csatolja fel a hálózati meghajtót, és hajtson végre egy gyári visszaállítást."
 
@@ -2465,6 +2483,10 @@ msgstr "DVD lejátszó"
 
 msgid "DVD titlelist"
 msgstr "DVD Címlista"
+
+#, fuzzy
+msgid "DVDPlayer"
+msgstr "DVD lejátszó"
 
 msgid "Danish"
 msgstr "Dán"
@@ -4067,6 +4089,9 @@ msgstr "Hotkey beállítás"
 msgid "Hotkey zap"
 msgstr "Hotkey csatornaváltás"
 
+msgid "Hotplug"
+msgstr ""
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Hány percet szeretne felvenni?"
 
@@ -5224,6 +5249,10 @@ msgstr "Nincs elérhető EMCPid (FTA csatornák)"
 msgid "No HDD found or HDD not initialized!"
 msgstr "Nem észlelhető háttértár, vagy az nem lett inicializálva!"
 
+#, fuzzy
+msgid "No active subservices available."
+msgstr "Nincs elérhető frissítés"
+
 msgid "No age block"
 msgstr "Nincs korhatár"
 
@@ -5702,10 +5731,17 @@ msgstr "Pilot"
 msgid "Pitcairn"
 msgstr "Pitcairn-szigetek"
 
+msgid "Pixels\n"
+msgstr ""
+
 msgid "Play"
 msgstr "Lejátszás"
 
 msgid "Play DVD"
+msgstr "DVD lejátszás"
+
+#, fuzzy
+msgid "Play DVDs"
 msgstr "DVD lejátszás"
 
 msgid "Play audio-CD..."
@@ -7891,6 +7927,9 @@ msgstr "Lágy"
 
 msgid "Social/Political/Economics"
 msgstr "Szociális/Politika/Gazdaság"
+
+msgid "SocketMMI"
+msgstr ""
 
 msgid "SoftCam / CI"
 msgstr "SoftCam/CI"
@@ -10898,6 +10937,10 @@ msgstr "alapértelmezett lista stílus"
 msgid "list style single line"
 msgstr "egyvonalas lista stílus"
 
+#, fuzzy
+msgid "listens to hotplug events"
+msgstr "Események elrendezése"
+
 msgid "literature"
 msgstr "irodalom"
 
@@ -11281,6 +11324,14 @@ msgstr "visszaugrás"
 
 msgid "skip forward"
 msgstr "előre ugrás"
+
+#, fuzzy, python-format
+msgid "slot%s - %s"
+msgstr "partíció%s - %s készülék mód: 1"
+
+#, fuzzy, python-format
+msgid "slot%s - %s (current image)"
+msgstr "partíció%s - %s készülék mód: 1 (jelenlegi image)"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"
