@@ -67,13 +67,13 @@ fbClass::fbClass(const char *fb)
 
 	available=fix.smem_len;
 	m_phys_mem = fix.smem_start;
-	eDebug("[fb] %s: %dk video mem", fb, available/1024);
+	eDebug("[fb] %dk total video memory", available / 1024);
 #if defined(__sh__)
 	// The first 1920x1080x4 bytes are reserved
 	// After that we can take 1280x720x4 bytes for our virtual framebuffer
-	available -= 1920*1080*4;
-	eDebug("%dk usable video mem", available/1024);
-	lfb=(unsigned char*)mmap(0, available, PROT_WRITE|PROT_READ, MAP_SHARED, fbFd, 1920*1080*4);
+	available -= 1920 * 1080 * 4;
+	eDebug("%dk usable video memory", available / 1024);
+	lfb = (unsigned char *)mmap(0, available, PROT_WRITE | PROT_READ, MAP_SHARED, fbFd, 1920 * 1080 * 4);
 #else
 	lfb=(unsigned char*)mmap(0, available, PROT_WRITE|PROT_READ, MAP_SHARED, fbFd, 0);
 #endif
@@ -117,13 +117,15 @@ int fbClass::showConsole(int state)
 
 int fbClass::SetMode(int nxRes, int nyRes, int nbpp)
 {
+#if not defined(__sh__)
 	if (fbFd < 0) return -1;
+#endif
 #if defined(__sh__)
-	xRes=nxRes;
-	yRes=nyRes;
-	bpp=32;
+	xRes = nxRes;
+	yRes = nyRes;
+	bpp = 32;
 	m_number_of_pages = 1;
-	topDiff=bottomDiff=leftDiff=rightDiff = 0;
+	topDiff = bottomDiff = leftDiff = rightDiff = 0;
 #else
 	screeninfo.xres_virtual=screeninfo.xres=nxRes;
 	screeninfo.yres_virtual=(screeninfo.yres=nyRes)*2;
@@ -178,9 +180,9 @@ int fbClass::SetMode(int nxRes, int nyRes, int nbpp)
 	ioctl(fbFd, FBIOGET_VSCREENINFO, &screeninfo);
 
 #if defined(__sh__)
-	xResSc=screeninfo.xres;
-	yResSc=screeninfo.yres;
-	stride=xRes*4;
+	xResSc = screeninfo.xres;
+	yResSc = screeninfo.yres;
+	stride = xRes*4;
 #else
 	if ((screeninfo.xres != (unsigned int)nxRes) || (screeninfo.yres != (unsigned int)nyRes) ||
 		(screeninfo.bits_per_pixel != (unsigned int)nbpp))
@@ -234,9 +236,11 @@ int fbClass::waitVSync()
 
 void fbClass::blit()
 {
+#if not defined(__sh__)
 	if (fbFd < 0) return;
+#endif
 #if defined(__sh__)
-	int modefd=open("/proc/stb/video/3d_mode", O_RDWR);
+	int modefd = open("/proc/stb/video/3d_mode", O_RDWR);
 	char buf[16] = "off";
 	if (modefd > 0)
 	{
@@ -363,22 +367,23 @@ int fbClass::lock()
 		locked = 1;
 
 #if defined(__sh__)
+   	locked = 1;     
 	outcfg.outputid = STMFBIO_OUTPUTID_MAIN;
-	if (ioctl( fbFd, STMFBIO_GET_OUTPUT_CONFIG, &outcfg ) < 0)
+	if (ioctl(fbFd, STMFBIO_GET_OUTPUT_CONFIG, &outcfg) < 0)
 		perror("STMFBIO_GET_OUTPUT_CONFIG\n");
 
 	outinfo.outputid = STMFBIO_OUTPUTID_MAIN;
-	if (ioctl( fbFd, STMFBIO_GET_OUTPUTINFO, &outinfo ) < 0)
+	if (ioctl(fbFd, STMFBIO_GET_OUTPUTINFO, &outinfo) < 0)
 		perror("STMFBIO_GET_OUTPUTINFO\n");
 
-	//if (ioctl( fbFd, STMFBIO_GET_VAR_SCREENINFO_EX, &infoex ) < 0)
+	//if (ioctl(fbFd, STMFBIO_GET_VAR_SCREENINFO_EX, &infoex) < 0)
 	//	printf("ERROR\n");
 
 	planemode.layerid = 0;
-	if (ioctl( fbFd, STMFBIO_GET_PLANEMODE, &planemode ) < 0)
+	if (ioctl(fbFd, STMFBIO_GET_PLANEMODE, &planemode) < 0)
 		perror("STMFBIO_GET_PLANEMODE\n");
 
-	if (ioctl( fbFd, STMFBIO_GET_VAR_SCREENINFO_EX, &infoex ) < 0)
+	if (ioctl(fbFd, STMFBIO_GET_VAR_SCREENINFO_EX, &infoex) < 0)
 		perror("STMFBIO_GET_VAR_SCREENINFO_EX\n");
 #endif
 	return fbFd;
@@ -395,22 +400,22 @@ void fbClass::unlock()
 	locked=0;
 
 #if defined(__sh__)
-	if (ioctl( fbFd, STMFBIO_SET_VAR_SCREENINFO_EX, &infoex ) < 0)
+	if (ioctl(fbFd, STMFBIO_SET_VAR_SCREENINFO_EX, &infoex) < 0)
 		perror("STMFBIO_SET_VAR_SCREENINFO_EX\n");
 
-	if (ioctl( fbFd, STMFBIO_SET_PLANEMODE, &planemode ) < 0)
+	if (ioctl(fbFd, STMFBIO_SET_PLANEMODE, &planemode) < 0)
 		perror("STMFBIO_SET_PLANEMODE\n");
 
-	if (ioctl( fbFd, STMFBIO_SET_VAR_SCREENINFO_EX, &infoex ) < 0)
+	if (ioctl(fbFd, STMFBIO_SET_VAR_SCREENINFO_EX, &infoex) < 0)
 		perror("STMFBIO_SET_VAR_SCREENINFO_EX\n");
 
-	if (ioctl( fbFd, STMFBIO_SET_OUTPUTINFO, &outinfo ) < 0)
+	if (ioctl(fbFd, STMFBIO_SET_OUTPUTINFO, &outinfo) < 0)
 		perror("STMFBIO_SET_OUTPUTINFO\n");
 
-	if (ioctl( fbFd, STMFBIO_SET_OUTPUT_CONFIG, &outcfg ) < 0)
+	if (ioctl(fbFd, STMFBIO_SET_OUTPUT_CONFIG, &outcfg) < 0)
 		perror("STMFBIO_SET_OUTPUT_CONFIG\n");
 
-	memset(lfb, 0, stride*yRes);
+	memset(lfb, 0, stride * yRes);
 #endif
 
 	SetMode(xRes, yRes, bpp);
@@ -449,13 +454,13 @@ void fbClass::clearFBblit()
 
 int fbClass::getFBdiff(int ret)
 {
-	if(ret == 0)
+	if (ret == 0)
 		return topDiff;
-	else if(ret == 1)
+	else if (ret == 1)
 		return leftDiff;
-	else if(ret == 2)
+	else if (ret == 2)
 		return rightDiff;
-	else if(ret == 3)
+	else if (ret == 3)
 		return bottomDiff;
 	else
 		return -1;
@@ -477,4 +482,3 @@ void fbClass::setFBdiff(int top, int left, int right, int bottom)
 	bottomDiff = bottom;
 }
 #endif
-
