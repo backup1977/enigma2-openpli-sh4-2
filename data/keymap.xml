@@ -160,6 +160,7 @@
 		<key id="KEY_RIGHT" mapto="keyRight" flags="mr"/>
 		<key id="KEY_UP" mapto="keyUp" flags="mr"/>
 		<key id="KEY_DOWN" mapto="keyDown" flags="mr"/>
+		<key id="KEY_RECALL" mapto="historyBack" flags="mr"/>
 		<key id="KEY_PREVIOUS" mapto="historyBack" flags="mr"/>
 		<key id="KEY_NEXT" mapto="historyNext" flags="mr"/>
 		<key id="KEY_CHANNELUP" mapto="keyChannelUp" flags="m"/>
