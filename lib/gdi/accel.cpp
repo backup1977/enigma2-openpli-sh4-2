@@ -373,8 +373,8 @@ void gAccel::accelFree(gUnmanagedSurface* surface)
 #else
 	int phys_addr = surface->data_phys;
 	if (phys_addr != 0)
-#endif
 	{
+#endif
 #ifdef ACCEL_DEBUG
 		eDebug("[gAccel] [%s] %p->%x %dx%d:%d", __func__, surface, surface->data_phys, surface->x, surface->y, surface->bpp);
 #endif
