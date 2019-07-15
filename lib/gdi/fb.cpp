@@ -249,13 +249,13 @@ void fbClass::blit()
 		close(modefd);
 	}
 
-	STMFBIO_BLT_DATA    bltData;
+	STMFBIO_BLT_DATA     bltData;
 	memset(&bltData, 0, sizeof(STMFBIO_BLT_DATA));
 	bltData.operation  = BLT_OP_COPY;
-	bltData.srcOffset  = 1920*1080*4;
+	bltData.srcOffset  = 1920 * 1080 * 4;
 	bltData.srcPitch   = xRes * 4;
 	bltData.dstOffset  = 0;
-	bltData.dstPitch   = xResSc*4;
+	bltData.dstPitch   = xResSc * 4;
 	bltData.src_top    = 0;
 	bltData.src_left   = 0;
 	bltData.src_right  = xRes;
@@ -265,40 +265,40 @@ void fbClass::blit()
 	bltData.srcMemBase = STMFBGP_FRAMEBUFFER;
 	bltData.dstMemBase = STMFBGP_FRAMEBUFFER;
 
-	if (strncmp(buf,"sbs",3)==0)
+	if (strncmp(buf, "sbs", 3) == 0)
 	{
 		bltData.dst_top    = 0 + topDiff;
-		bltData.dst_left   = 0 + leftDiff/2;
-		bltData.dst_right  = xResSc/2 + rightDiff/2;
+		bltData.dst_left   = 0 + leftDiff / 2;
+		bltData.dst_right  = xResSc / 2 + rightDiff / 2;
 		bltData.dst_bottom = yResSc + bottomDiff;
 		if (ioctl(fbFd, STMFBIO_BLT, &bltData ) < 0)
 		{
 			perror("STMFBIO_BLT");
 		}
 		bltData.dst_top    = 0 + topDiff;
-		bltData.dst_left   = xResSc/2 + leftDiff/2;
-		bltData.dst_right  = xResSc + rightDiff/2;
+		bltData.dst_left   = xResSc / 2 + leftDiff / 2;
+		bltData.dst_right  = xResSc + rightDiff / 2;
 		bltData.dst_bottom = yResSc + bottomDiff;
-		if (ioctl(fbFd, STMFBIO_BLT, &bltData ) < 0)
+		if (ioctl(fbFd, STMFBIO_BLT, &bltData) < 0)
 		{
 			perror("STMFBIO_BLT");
 		}
 	}
-	else if (strncmp(buf,"tab",3)==0)
+	else if (strncmp(buf, "tab", 3) == 0)
 	{
-		bltData.dst_top    = 0 + topDiff/2;
+		bltData.dst_top    = 0 + topDiff / 2;
 		bltData.dst_left   = 0 + leftDiff;
 		bltData.dst_right  = xResSc + rightDiff;
-		bltData.dst_bottom = yResSc/2 + bottomDiff/2;
-		if (ioctl(fbFd, STMFBIO_BLT, &bltData ) < 0)
+		bltData.dst_bottom = yResSc / 2 + bottomDiff / 2;
+		if (ioctl(fbFd, STMFBIO_BLT, &bltData) < 0)
 		{
 			perror("STMFBIO_BLT");
 		}
-		bltData.dst_top    = yResSc/2 + topDiff/2;
+		bltData.dst_top    = yResSc / 2 + topDiff / 2;
 		bltData.dst_left   = 0 + leftDiff;
 		bltData.dst_right  = xResSc + rightDiff;
-		bltData.dst_bottom = yResSc + bottomDiff/2;
-		if (ioctl(fbFd, STMFBIO_BLT, &bltData ) < 0)
+		bltData.dst_bottom = yResSc + bottomDiff / 2;
+		if (ioctl(fbFd, STMFBIO_BLT, &bltData) < 0)
 		{
 			perror("STMFBIO_BLT");
 		}
@@ -309,7 +309,7 @@ void fbClass::blit()
 		bltData.dst_left   = 0 + leftDiff;
 		bltData.dst_right  = xResSc + rightDiff;
 		bltData.dst_bottom = yResSc + bottomDiff;
-		if (ioctl(fbFd, STMFBIO_BLT, &bltData ) < 0)
+		if (ioctl(fbFd, STMFBIO_BLT, &bltData) < 0)
 		{
 			perror("STMFBIO_BLT");
 		}
@@ -367,7 +367,7 @@ int fbClass::lock()
 		locked = 1;
 
 #if defined(__sh__)
-   	locked = 1;     
+	locked = 1;
 	outcfg.outputid = STMFBIO_OUTPUTID_MAIN;
 	if (ioctl(fbFd, STMFBIO_GET_OUTPUT_CONFIG, &outcfg) < 0)
 		perror("STMFBIO_GET_OUTPUT_CONFIG\n");
