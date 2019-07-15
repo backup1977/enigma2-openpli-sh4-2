@@ -67,7 +67,6 @@ fbClass::fbClass(const char *fb)
 
 	available=fix.smem_len;
 	m_phys_mem = fix.smem_start;
-	eDebug("[fb] %dk total video memory", available / 1024);
 #if defined(__sh__)
 	// The first 1920x1080x4 bytes are reserved
 	// After that we can take 1280x720x4 bytes for our virtual framebuffer
@@ -75,6 +74,7 @@ fbClass::fbClass(const char *fb)
 	eDebug("%dk usable video memory", available / 1024);
 	lfb = (unsigned char *)mmap(0, available, PROT_WRITE | PROT_READ, MAP_SHARED, fbFd, 1920 * 1080 * 4);
 #else
+    eDebug("[fb] %dk total video memory", available / 1024);
 	lfb=(unsigned char*)mmap(0, available, PROT_WRITE|PROT_READ, MAP_SHARED, fbFd, 0);
 #endif
 	if (!lfb)
