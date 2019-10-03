@@ -186,9 +186,9 @@ class OverscanWizard(Screen, ConfigListScreen):
 					config.plugins.OSDPositionSetup.dst_bottom.value = self.dst_bottom.value -150
 				else:
 					config.plugins.OSDPositionSetup.dst_left.value = 0
-					config.plugins.OSDPositionSetup.dst_width.value = 0
+					config.plugins.OSDPositionSetup.dst_right.value = 0
 					config.plugins.OSDPositionSetup.dst_top.value = 0
-					config.plugins.OSDPositionSetup.dst_height.value = 0
+					config.plugins.OSDPositionSetup.dst_bottom.value = 0
 				config.misc.do_overscanwizard.value = False
 				config.save()
 				setConfiguredPosition()
