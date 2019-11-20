@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2018-11-12 20:51+0200\n"
 "Last-Translator: Мартин Петков <marto74bg@yahoo.co.uk>\n"
 "Language-Team: Bulgarian\n"
@@ -15,13 +15,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Допълнителни опции и настройки"
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -29,38 +22,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Копие на вашите настройките за приемника."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
 "\n"
 "Откриването на конфликти е изключено!"
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Редакция на адреса за ъпгрейд."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Управление на разширенията или плъгините за вашия приемник"
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Мрежова актуализация за софтуера на вашия приемник."
 
 msgid ""
 "\n"
@@ -82,48 +47,11 @@ msgstr ""
 "\n"
 "Извършва се запис."
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Възстановяване на вашите копия по дата."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Възстановяване настройките на вашия приемник."
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Сканиране за локални разширения и инсталация."
-
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Изберете вашето backup устройство.\n"
-"Текущо устройство: "
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Преглед, инсталиране и премахване на налични или инсталирани пакети."
 
 msgid " (0 - all networks)"
 msgstr " (0 - всички мрежи)"
@@ -816,6 +744,10 @@ msgstr "Добавяне ново име"
 msgid "Add bookmark"
 msgstr "Добавяне отметка"
 
+#, fuzzy
+msgid "Add bouquet"
+msgstr "добави букет"
+
 msgid "Add directory to playlist"
 msgstr "Добави директория към плейлиста"
 
@@ -842,6 +774,10 @@ msgstr "Добави запис (спри след текущото предав
 
 msgid "Add service"
 msgstr "Добавяне на услуга"
+
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "добави канала към букет"
 
 msgid "Add timer"
 msgstr "Добавяне на таймер"
@@ -875,6 +811,9 @@ msgstr "Разширено"
 
 msgid "Advanced options"
 msgstr "Разширени настройки"
+
+msgid "Advanced options and settings."
+msgstr "Допълнителни опции и настройки."
 
 msgid "Advanced restore"
 msgstr "Експертно възстановяване"
@@ -1356,6 +1295,9 @@ msgstr "Настройки за Резервно копие"
 msgid "Backup system settings"
 msgstr "Резервно копие на системните настройки"
 
+msgid "Backup your receiver settings."
+msgstr "Копие на вашите настройките за приемника."
+
 msgid "Bahamas"
 msgstr "Бахамски острови"
 
@@ -1729,8 +1671,9 @@ msgstr "Канал"
 msgid "Channels and EPG"
 msgstr "Канали и EPG"
 
+#, fuzzy
 msgid "Channels only"
-msgstr "Само канали"
+msgstr "Канал"
 
 msgid "Chap."
 msgstr "Глава."
@@ -3044,7 +2987,7 @@ msgid "EPG language selection 2"
 msgstr "EPG избор на език 2"
 
 msgid "EPG only"
-msgstr "Само EPG"
+msgstr ""
 
 msgid "EPG selection"
 msgstr "EPG избор"
@@ -3094,14 +3037,17 @@ msgstr "Редактиране DNS настройките за вашия при
 msgid "Edit the network configuration of your receiver.\n"
 msgstr "Редактиране мрежовите настройки за вашия приемник.\n"
 
+msgid "Edit the update source address."
+msgstr "Редакция на адреса за ъпгрейд."
+
 msgid "Edit timer"
 msgstr "Редактиране на таймер"
 
 msgid "Edit title"
 msgstr "Редакт.заглавие"
 
-msgid "Edit update source url."
-msgstr "Редакция на адреса за актуализации(url)."
+msgid "Edit update source url"
+msgstr "Редакция на адреса за актуализации(url)"
 
 msgid "Education/Science/..."
 msgstr "Образование/Наука/..."
@@ -4246,6 +4192,9 @@ msgstr "Исландия"
 msgid "Icons"
 msgstr "Икони"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -4321,6 +4270,7 @@ msgstr "Имидж: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr "Импортиране на канали/EPG от резервния приемник при изход от режим готовност"
 
+#, fuzzy
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
 msgstr "Импортиране на канали/EPG от резервния приемник при стартиране на приемника"
 
@@ -4905,6 +4855,9 @@ msgstr "Малта"
 
 msgid "Manage extensions"
 msgstr "Управление на разширения"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Управление на разширенията или плъгините за вашия приемник."
 
 msgid "Manage your receiver's software"
 msgstr "Управление софтуера на ресийвъра"
@@ -5635,6 +5588,9 @@ msgstr "При валидни ONID, игнорирай честотната ча
 
 msgid "One"
 msgstr "Един"
+
+msgid "Online update of your receiver software."
+msgstr "Мрежова актуализация за софтуера на вашия приемник."
 
 #, fuzzy
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
@@ -6784,6 +6740,12 @@ msgstr "Възстановяване backups"
 msgid "Restore system settings"
 msgstr "Възстановяване на системните настройки"
 
+msgid "Restore your backups by date."
+msgstr "Възстановяване на вашите копия по дата."
+
+msgid "Restore your receiver settings."
+msgstr "Възстановяване настройките на вашия приемник."
+
 msgid "Restoring..."
 msgstr "Възстановяване..."
 
@@ -7076,6 +7038,9 @@ msgstr "Грешка при търсенето!"
 
 msgid "Scan files..."
 msgstr "Търсене на файлове..."
+
+msgid "Scan for local extensions and install them."
+msgstr "Сканиране за локални разширения и инсталация."
 
 msgid "Scan options"
 msgstr "Параметри за търсене"
@@ -7437,8 +7402,8 @@ msgstr ""
 msgid "Select update source"
 msgstr "Избор на източника за обновяване"
 
-msgid "Select update source to edit."
-msgstr "Редактиране на източника за обновяване."
+msgid "Select update source to edit"
+msgstr "Редактиране на източника за обновяване"
 
 msgid "Select video input with up/down buttons"
 msgstr "Изберете видео вход с бутони нaгоре/надолу"
@@ -7454,6 +7419,13 @@ msgstr "Изберете Вашия ATSC провайдър."
 
 msgid "Select your Skin"
 msgstr "Изберете Вашия Скин"
+
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Изберете вашето backup устройство.\n"
+"Текущо устройство: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr "Изберете Вашата страна. Ако не е налична, изберете ‘всички’."
@@ -7935,6 +7907,10 @@ msgstr "Покажи радио плеъра..."
 
 msgid "Show the tv player..."
 msgstr "Покажи ТВ плеъра..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Ограничаване броя на символите в имената на записите"
 
 msgid "Show vertical timelines"
 msgstr "Показвай вертикална хронология"
@@ -9865,6 +9841,9 @@ msgstr "Преглед телетекст..."
 
 msgid "View video CD..."
 msgstr "Преглед на видео CD..."
+
+msgid "View, install and remove available or installed packages."
+msgstr "Преглед, инсталиране и премахване на налични или инсталирани пакети."
 
 msgid "Virgin Islands (British)"
 msgstr "Острови Вирджиния (Английски)"

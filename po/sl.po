@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2015-08-30 09:00+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -16,14 +16,6 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Napredne nastavitve."
-
-#
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -31,37 +23,8 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Varnostno kopiranje nastavitev sprejemnika."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
-
-#
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Sprememba vira za nadgradnjo sprejemnika."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Upravljanje z razširitvami in vtičniki sprejemnika."
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Nadgradnja sprejemnika preko interneta."
 
 #
 msgid ""
@@ -85,39 +48,6 @@ msgstr ""
 "\n"
 "Trenutno poteka snemanje!"
 
-#
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Obnova varnostne kopije glede na datum."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Obnovitev nastavitev sprejemnika."
-
-#
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Iskanje in nameščanje lokalnih razširitev."
-
-#
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Izberite lokacijo za shranitev nastavitev sprejemnika. \n"
-"Trenutna lokacija:"
-
 #, python-format
 msgid ""
 "\n"
@@ -125,14 +55,6 @@ msgid ""
 msgstr ""
 "\n"
 "Časovnik '%s' je izklopljen!"
-
-#
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Poglejte, namestite in odstranite pakete, ki so nameščeni oz. so na voljo."
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -930,6 +852,11 @@ msgid "Add bookmark"
 msgstr "Nov zaznamek"
 
 #
+#, fuzzy
+msgid "Add bouquet"
+msgstr "Nov paket"
+
+#
 msgid "Add directory to playlist"
 msgstr "Dodajanje mape v seznam za predvajanje"
 
@@ -964,6 +891,11 @@ msgstr "Novo snemanje (snemanje se zaključi po koncu trenutnega dogodka)"
 #
 msgid "Add service"
 msgstr "Nov kanal"
+
+#
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "Premik kanala v drug paket"
 
 #
 msgid "Add timer"
@@ -1003,6 +935,10 @@ msgstr "Napredno"
 #
 msgid "Advanced options"
 msgstr "Napredne nastavitve"
+
+#
+msgid "Advanced options and settings."
+msgstr "Napredne nastavitve."
 
 #
 msgid "Advanced restore"
@@ -1559,6 +1495,9 @@ msgstr "Shrani glavne nastavitve"
 msgid "Backup system settings"
 msgstr "Shrani glavne nastavitve"
 
+msgid "Backup your receiver settings."
+msgstr "Varnostno kopiranje nastavitev sprejemnika."
+
 msgid "Bahamas"
 msgstr ""
 
@@ -1985,9 +1924,10 @@ msgstr "Kanal"
 msgid "Channels and EPG"
 msgstr "Info. o kanalu"
 
+#
 #, fuzzy
 msgid "Channels only"
-msgstr "Info. o kanalu"
+msgstr "Kanal"
 
 #
 msgid "Chap."
@@ -3562,6 +3502,10 @@ msgid "Edit the network configuration of your receiver.\n"
 msgstr "Nastavite omrežni vmesnik sprejemnika.\n"
 
 #
+msgid "Edit the update source address."
+msgstr "Sprememba vira za nadgradnjo sprejemnika."
+
+#
 msgid "Edit timer"
 msgstr "Urejanje časovnika"
 
@@ -3570,8 +3514,8 @@ msgid "Edit title"
 msgstr "Spremenite naslov"
 
 #
-msgid "Edit update source url."
-msgstr "Uredite povezavo vira za nadgradnjo."
+msgid "Edit update source url"
+msgstr "Uredite povezavo vira za nadgradnjo"
 
 msgid "Education/Science/..."
 msgstr ""
@@ -4841,6 +4785,9 @@ msgstr ""
 msgid "Icons"
 msgstr "Ikone"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -4916,8 +4863,9 @@ msgstr "Verzija slike: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr ""
 
+#, fuzzy
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr ""
+msgstr "Naslov rezervnega oddaljenega sprejemnika"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
@@ -5602,6 +5550,9 @@ msgstr ""
 #
 msgid "Manage extensions"
 msgstr "Upravljanje vtičnikov"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Upravljanje z razširitvami in vtičniki sprejemnika."
 
 #
 msgid "Manage your receiver's software"
@@ -6459,6 +6410,9 @@ msgstr ""
 #
 msgid "One"
 msgstr "En"
+
+msgid "Online update of your receiver software."
+msgstr "Nadgradnja sprejemnika preko interneta."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -7828,6 +7782,13 @@ msgid "Restore system settings"
 msgstr "Obnovitev glavnih nastavitev"
 
 #
+msgid "Restore your backups by date."
+msgstr "Obnova varnostne kopije glede na datum."
+
+msgid "Restore your receiver settings."
+msgstr "Obnovitev nastavitev sprejemnika."
+
+#
 msgid "Restoring..."
 msgstr "Obnavljanje ..."
 
@@ -8167,6 +8128,10 @@ msgstr "Pregledovanje ni uspelo!"
 #
 msgid "Scan files..."
 msgstr "Iskanje datotek"
+
+#
+msgid "Scan for local extensions and install them."
+msgstr "Iskanje in nameščanje lokalnih razširitev."
 
 msgid "Scan options"
 msgstr "Možnosti iskanja"
@@ -8588,8 +8553,8 @@ msgid "Select update source"
 msgstr "Izberite vir nadgradnje"
 
 #
-msgid "Select update source to edit."
-msgstr "Izberite vir, ki ga boste urejali."
+msgid "Select update source to edit"
+msgstr "Izberite vir, ki ga boste urejali"
 
 #
 msgid "Select video input with up/down buttons"
@@ -8610,6 +8575,14 @@ msgstr "Izberite ponudnika, ki ga želite dodati."
 
 msgid "Select your Skin"
 msgstr ""
+
+#
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Izberite lokacijo za shranitev nastavitev sprejemnika.\n"
+"Trenutna lokacija:"
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -9155,6 +9128,11 @@ msgstr "Prikaz radio predvajalnika"
 #
 msgid "Show the tv player..."
 msgstr "Prikaz TV predvajalnika"
+
+#
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Omejen nabor znakov za imena posnetih datotek"
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -11363,6 +11341,10 @@ msgstr "Ogled teleteksta"
 #
 msgid "View video CD..."
 msgstr "Ogled posnetkov"
+
+#
+msgid "View, install and remove available or installed packages."
+msgstr "Poglejte, namestite in odstranite pakete, ki so nameščeni oz. so na voljo."
 
 msgid "Virgin Islands (British)"
 msgstr ""

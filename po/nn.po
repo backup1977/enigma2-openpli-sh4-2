@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2013-10-23 19:15+0100\n"
 "Last-Translator: andy1 <dmmm8000pvr@gmail.com>\n"
 "Language-Team: none\n"
@@ -17,13 +17,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,31,1959,-1,-1,-1\n"
 
-msgid ""
-"\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Utvidede alternativer og innstillinger."
-
 #
 msgid ""
 "\n"
@@ -34,36 +27,8 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Ta sikkerhetskopi av mottakerinnstillinger."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Endre oppdateringsadresse."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Administrere programvare utvidelser til mottakeren."
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Online oppdatering av din mottaker"
 
 #
 msgid ""
@@ -84,49 +49,11 @@ msgid ""
 "Recording in progress."
 msgstr ""
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Gjenopprette sikkerhetskopier etter dato."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Gjenopprette mottakeren."
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Søke etter og installere lokale utvidelser."
-
-#
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Velg din sikkerhetskopi.\n"
-"Nåværende kopi:"
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Se gjennom, installere/ avinstallere programpakker."
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -873,6 +800,11 @@ msgstr "Legge til nytt navn"
 msgid "Add bookmark"
 msgstr "Legge til bokmerke"
 
+#
+#, fuzzy
+msgid "Add bouquet"
+msgstr "legge til kanalliste"
+
 msgid "Add directory to playlist"
 msgstr "Legge til katalog i spilliste"
 
@@ -905,6 +837,10 @@ msgstr "Legge til opptak (stop etter nåværende program)"
 #
 msgid "Add service"
 msgstr "Legge til kanal"
+
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "legge til kanal i kanalliste"
 
 #
 msgid "Add timer"
@@ -942,6 +878,9 @@ msgstr ""
 
 msgid "Advanced options"
 msgstr "Alternativer"
+
+msgid "Advanced options and settings."
+msgstr "Utvidede alternativer og innstillinger."
 
 msgid "Advanced restore"
 msgstr "Velg sikkerhetskopi etter dato"
@@ -1462,6 +1401,9 @@ msgstr "Sikkerhetskopier system innstillinger"
 #
 msgid "Backup system settings"
 msgstr "Sikkerhetskopier system innstillinger"
+
+msgid "Backup your receiver settings."
+msgstr "Ta sikkerhetskopi av mottakerinnstillinger."
 
 msgid "Bahamas"
 msgstr ""
@@ -3390,14 +3332,17 @@ msgstr "Endre mottakerens navneserverinnstilling.\n"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr "Endre mottakerens nettverksinnstilling.\n"
 
+msgid "Edit the update source address."
+msgstr "Endre oppdateringsadresse."
+
 msgid "Edit timer"
 msgstr ""
 
 msgid "Edit title"
 msgstr "Endre navn"
 
-msgid "Edit update source url."
-msgstr "Endre oppdateringens internettadresse."
+msgid "Edit update source url"
+msgstr "Endre oppdateringens internettadresse"
 
 msgid "Education/Science/..."
 msgstr "utdanning/vitenskap/..."
@@ -4615,6 +4560,9 @@ msgstr ""
 msgid "Icons"
 msgstr "Varsler"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -5356,6 +5304,9 @@ msgstr ""
 #
 msgid "Manage extensions"
 msgstr "Administrer utvidelser"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Administrere programvare utvidelser til mottakeren."
 
 #
 msgid "Manage your receiver's software"
@@ -6184,6 +6135,9 @@ msgstr ""
 #
 msgid "One"
 msgstr "En"
+
+msgid "Online update of your receiver software."
+msgstr "Online oppdatering av din mottaker."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -7456,6 +7410,12 @@ msgstr "Gjenopprette sikkerhetskopier"
 msgid "Restore system settings"
 msgstr "Gjenopprette systeminnstillinger"
 
+msgid "Restore your backups by date."
+msgstr "Gjenopprette sikkerhetskopier etter dato."
+
+msgid "Restore your receiver settings."
+msgstr "Gjenopprette mottakeren."
+
 #
 msgid "Restoring..."
 msgstr "Gjenoppretter..."
@@ -7771,6 +7731,9 @@ msgstr "Søket feilet!"
 
 msgid "Scan files..."
 msgstr "Søker filer..."
+
+msgid "Scan for local extensions and install them."
+msgstr "Søke etter og installere lokale utvidelser."
 
 msgid "Scan options"
 msgstr ""
@@ -8158,8 +8121,8 @@ msgstr ""
 msgid "Select update source"
 msgstr "Velg oppdateringssted"
 
-msgid "Select update source to edit."
-msgstr "Velg og endre oppdateringssted."
+msgid "Select update source to edit"
+msgstr "Velg og endre oppdateringssted"
 
 msgid "Select video input with up/down buttons"
 msgstr "Velg videoinngang med opp/ned tastene"
@@ -8179,6 +8142,14 @@ msgstr "Velg leverandør å legge til..."
 
 msgid "Select your Skin"
 msgstr ""
+
+#
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Velg din sikkerhetskopi.\n"
+"Nåværende kopi:"
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -8688,6 +8659,10 @@ msgstr "Vis radiospilleren"
 #
 msgid "Show the tv player..."
 msgstr "Vis TV spilleren..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Begrense antall tegn på opptaksnavn"
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -10798,6 +10773,9 @@ msgstr "Se tekst-TV..."
 
 msgid "View video CD..."
 msgstr "Se video CD..."
+
+msgid "View, install and remove available or installed packages."
+msgstr "Se gjennom, installere/ avinstallere programpakker."
 
 msgid "Virgin Islands (British)"
 msgstr ""

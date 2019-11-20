@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OPENPLi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2015-12-18 21:05+0200\n"
 "Last-Translator: Yetkin AYDIN <yetkina@gmail.com>\n"
 "Language-Team: http://www.hurforum.com <yetkina@gmail.com>\n"
@@ -21,13 +21,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Gelişmiş seçenekler ve ayarlar."
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -35,36 +28,8 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Alıcı ayarlarını Yedekle."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Güncelleme sunucusu adresini düzenleyin."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Alıcınız için uzantıları veya eklentileri yönetin"
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Alıcının yazılımı online güncelle...."
 
 msgid ""
 "\n"
@@ -86,36 +51,6 @@ msgstr ""
 "\n"
 "Kayıt devam ediyor."
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Yedeklerinizi tarihe göre geri yükleyin."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Alıcının ayarlarını geri yükle."
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Yereldeki eklentileri arayın ve kurun"
-
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Yedekleme aygıtını seçin.\n"
-"Mevcut aygıt: "
-
 #, python-format
 msgid ""
 "\n"
@@ -123,13 +58,6 @@ msgid ""
 msgstr ""
 "\n"
 "'%s' Zamanlayıcı devre dışı!"
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Paketleri görün, yükleyin veya yüklü paketleri kaldırın."
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -812,6 +740,10 @@ msgstr "Yeni başlık ekle"
 msgid "Add bookmark"
 msgstr "Yer işareti ekle"
 
+#, fuzzy
+msgid "Add bouquet"
+msgstr "Buket oluştur"
+
 msgid "Add directory to playlist"
 msgstr "Klasörü Çalma listesine ekle"
 
@@ -838,6 +770,10 @@ msgstr "Kayıt Ekle (geçerli olaydan sonra dur)"
 
 msgid "Add service"
 msgstr "Servis Ekle"
+
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "Kanalı Bukete Ekle"
 
 msgid "Add timer"
 msgstr "Zamanlayıcı Ekle"
@@ -871,6 +807,9 @@ msgstr "Gelişmiş"
 
 msgid "Advanced options"
 msgstr "Gelişmiş seçenekler"
+
+msgid "Advanced options and settings."
+msgstr "Gelişmiş seçenekler ve ayarlar."
 
 msgid "Advanced restore"
 msgstr "Gelişmiş Geri Yükleme"
@@ -1356,6 +1295,9 @@ msgstr "Sistem ayarlarını yedekle"
 msgid "Backup system settings"
 msgstr "Sistem ayarlarını yedekle"
 
+msgid "Backup your receiver settings."
+msgstr "Alıcı ayarlarını Yedekle."
+
 msgid "Bahamas"
 msgstr ""
 
@@ -1736,7 +1678,7 @@ msgstr "Kanal Bilgisi"
 
 #, fuzzy
 msgid "Channels only"
-msgstr "Kanal Bilgisi"
+msgstr "Kanal"
 
 msgid "Chap."
 msgstr "Bölüm"
@@ -3120,14 +3062,17 @@ msgstr "İsim sunucusunu yapılandırın..\n"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr "Ağ yapılandırmasını düzenleyin.\n"
 
+msgid "Edit the update source address."
+msgstr "Güncelleme sunucusu adresini düzenleyin."
+
 msgid "Edit timer"
 msgstr "Zamanlayıcıyı Düzenle"
 
 msgid "Edit title"
 msgstr "Başlığı düzenle"
 
-msgid "Edit update source url."
-msgstr "Güncelleme sunucusu adresini düzenleyin."
+msgid "Edit update source url"
+msgstr "Güncelleme sunucusu adresini düzenleyin"
 
 msgid "Education/Science/..."
 msgstr "Eğitim/Bilim/..."
@@ -4264,6 +4209,9 @@ msgstr ""
 msgid "Icons"
 msgstr "Simgeler"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -4337,8 +4285,9 @@ msgstr "Imaj: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr ""
 
+#, fuzzy
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr ""
+msgstr "Yedek cihaz  URL"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
@@ -4926,6 +4875,9 @@ msgstr ""
 
 msgid "Manage extensions"
 msgstr "Eklentileri yönet"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Alıcınız için uzantıları veya eklentileri yönetin."
 
 msgid "Manage your receiver's software"
 msgstr "Sistem Yazılımımı Yönetimi"
@@ -5668,6 +5620,9 @@ msgstr ""
 
 msgid "One"
 msgstr "Bir"
+
+msgid "Online update of your receiver software."
+msgstr "Alıcının yazılımı online güncelle."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -6832,6 +6787,12 @@ msgstr "Yedekten geri yükle"
 msgid "Restore system settings"
 msgstr "Sistem ayarlarını geri yükle"
 
+msgid "Restore your backups by date."
+msgstr "Yedeklerinizi tarihe göre geri yükleyin."
+
+msgid "Restore your receiver settings."
+msgstr "Alıcının ayarlarını geri yükle."
+
 msgid "Restoring..."
 msgstr "Geri yükleniyor ..."
 
@@ -7126,6 +7087,9 @@ msgstr "Tarama başarısız!"
 
 msgid "Scan files..."
 msgstr "Dosyaları Tara..."
+
+msgid "Scan for local extensions and install them."
+msgstr "Yereldeki eklentileri arayın ve kurun."
 
 msgid "Scan options"
 msgstr "Tarama seçenekleri"
@@ -7486,8 +7450,8 @@ msgstr ""
 msgid "Select update source"
 msgstr "Güncelleme kaynağı seçin"
 
-msgid "Select update source to edit."
-msgstr "Düzenlemek istediğiniz güncelleme kaynağını seçin."
+msgid "Select update source to edit"
+msgstr "Düzenlemek istediğiniz güncelleme kaynağını seçin"
 
 msgid "Select video input with up/down buttons"
 msgstr "Yukarı / aşağı düğmeleri ile  video girişi seçin"
@@ -7504,6 +7468,13 @@ msgstr "Eklenecek yayıncıyı seçin..."
 
 msgid "Select your Skin"
 msgstr ""
+
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Yedekleme aygıtını seçin.\n"
+"Mevcut aygıt: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -7984,6 +7955,10 @@ msgstr "Radyo kanal listesini göster..."
 
 msgid "Show the tv player..."
 msgstr "TV kanal listesini göster..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Kayıt dosya adları için karakter kümesi sınırı"
 
 msgid "Show vertical timelines"
 msgstr "Dikey zaman çizelgelerini göster"
@@ -9932,6 +9907,9 @@ msgstr "Teletekst bilgileri ..."
 
 msgid "View video CD..."
 msgstr "Video CD bilgileri ..."
+
+msgid "View, install and remove available or installed packages."
+msgstr "Paketleri görün, yükleyin veya yüklü paketleri kaldırın."
 
 msgid "Virgin Islands (British)"
 msgstr ""

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2013-10-20 19:13-0300\n"
 "Last-Translator: Diogo <pingflood@gmail.com>\n"
 "Language-Team: Traduzido por Frank Viana <franksrviana@gmail.com>\n"
@@ -19,13 +19,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Configurações e opções avançadas."
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -33,36 +26,8 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Faça um backup das configurações."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Editar o endereço do repositório de atualizações."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Gerenciador de extensões ou plugins para o receptor"
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Atualização online do software do receptor."
 
 msgid ""
 "\n"
@@ -82,48 +47,11 @@ msgid ""
 "Recording in progress."
 msgstr ""
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Restaurar os backups por data."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Restaurar as configurações do receptor."
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Buscar e instalar extensões locais."
-
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Selecione o dispositivo para backup.\n"
-"Dispositivo atual: "
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Ver, instalar e remover pacotes instalados ou disponíveis."
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -817,6 +745,10 @@ msgstr "Adicionar novo título"
 msgid "Add bookmark"
 msgstr "Adicionar favorito"
 
+#, fuzzy
+msgid "Add bouquet"
+msgstr "Adicionar grupo de favoritos"
+
 msgid "Add directory to playlist"
 msgstr "Adicionar diretório à lista de reprodução"
 
@@ -843,6 +775,10 @@ msgstr "Gravar até o fim do evento atual"
 
 msgid "Add service"
 msgstr "Adicionar serviço"
+
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "Adicionar ao grupo de favoritos"
 
 msgid "Add timer"
 msgstr "Agendar"
@@ -876,6 +812,9 @@ msgstr ""
 
 msgid "Advanced options"
 msgstr "Opções avançadas"
+
+msgid "Advanced options and settings."
+msgstr "Configurações e opções avançadas."
 
 msgid "Advanced restore"
 msgstr "Restauração avançada"
@@ -1355,6 +1294,9 @@ msgstr "Salvar configurações do sistema"
 msgid "Backup system settings"
 msgstr "Salvar configurações do sistema"
 
+msgid "Backup your receiver settings."
+msgstr "Faça um backup das configurações."
+
 msgid "Bahamas"
 msgstr ""
 
@@ -1734,7 +1676,7 @@ msgstr "Informação do canal"
 
 #, fuzzy
 msgid "Channels only"
-msgstr "Informação do canal"
+msgstr "Canal"
 
 msgid "Chap."
 msgstr "Cap."
@@ -3109,14 +3051,17 @@ msgstr "Edita a configuração do servidor DNS.\n"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr "Edita a configuração de rede do receptor.\n"
 
+msgid "Edit the update source address."
+msgstr "Editar o endereço do repositório de atualizações."
+
 msgid "Edit timer"
 msgstr ""
 
 msgid "Edit title"
 msgstr "Editar título"
 
-msgid "Edit update source url."
-msgstr "Editar URL da fonte de atualização."
+msgid "Edit update source url"
+msgstr "Editar URL da fonte de atualização"
 
 msgid "Education/Science/..."
 msgstr "Educação/Ciência"
@@ -4239,6 +4184,9 @@ msgstr ""
 msgid "Icons"
 msgstr "Ícones"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -4900,6 +4848,9 @@ msgstr ""
 
 msgid "Manage extensions"
 msgstr "Gerenciar extensões"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Gerenciador de extensões ou plugins para o receptor."
 
 msgid "Manage your receiver's software"
 msgstr "Gerenciar o software do receptor"
@@ -5641,6 +5592,9 @@ msgstr ""
 
 msgid "One"
 msgstr "Um"
+
+msgid "Online update of your receiver software."
+msgstr "Atualização online do software do receptor."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -6801,6 +6755,12 @@ msgstr "Restaurar backups"
 msgid "Restore system settings"
 msgstr "Restaurar configurações do sistema"
 
+msgid "Restore your backups by date."
+msgstr "Restaurar os backups por data."
+
+msgid "Restore your receiver settings."
+msgstr "Restaurar as configurações do receptor."
+
 msgid "Restoring..."
 msgstr "Restaurando..."
 
@@ -7093,6 +7053,9 @@ msgstr "A busca falhou!"
 
 msgid "Scan files..."
 msgstr "Buscar arquivos"
+
+msgid "Scan for local extensions and install them."
+msgstr "Buscar e instalar extensões locais."
 
 msgid "Scan options"
 msgstr ""
@@ -7455,7 +7418,7 @@ msgstr ""
 msgid "Select update source"
 msgstr "Servidores de atualizações"
 
-msgid "Select update source to edit."
+msgid "Select update source to edit"
 msgstr "Selecione a fonte de atualizações para editar"
 
 msgid "Select video input with up/down buttons"
@@ -7473,6 +7436,13 @@ msgstr "Selecione a operadora para adicionar"
 
 msgid "Select your Skin"
 msgstr ""
+
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Selecione o dispositivo para backup.\n"
+"Dispositivo atual: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -7953,6 +7923,10 @@ msgstr "Reprodutor de rádio"
 
 msgid "Show the tv player..."
 msgstr "Reprodutor de TV"
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Limite de caracteres para o nome das gravações"
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -9878,6 +9852,9 @@ msgstr "Ver teletexto"
 
 msgid "View video CD..."
 msgstr "Ver CD de vídeo"
+
+msgid "View, install and remove available or installed packages."
+msgstr "Ver, instalar e remover pacotes instalados ou disponíveis."
 
 msgid "Virgin Islands (British)"
 msgstr ""

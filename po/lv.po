@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -17,13 +17,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Papildus opcijas un iestatījumi."
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -31,38 +24,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Izveidot iestatījumu dublējumkopiju."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
 "\n"
 "Konfliktu noteikšana izslēgta!"
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Rediģēt atjaunināšanas avota adresi."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Pārvaldīt uztvērēja paplašinājumus vai spraudņus"
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Uztvērēja programmatūras atjaunošana no interneta."
 
 msgid ""
 "\n"
@@ -85,36 +50,6 @@ msgstr ""
 "\n"
 "Notiek ierakstīšana."
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Atjaunot dublējumkopijas pēc datuma."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Atjaunot uztvērēja iestatījumus."
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Meklēt un instalēt lokālos paplašinājumus."
-
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Izvēlieties dublējumkopijas ierīci.\n"
-"Pašreizējā ierīce: "
-
 #, python-format
 msgid ""
 "\n"
@@ -122,13 +57,6 @@ msgid ""
 msgstr ""
 "\n"
 "Taimeris '%s' izslēgts!"
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Skatīt, instalēt un dzēst pieejamās vai instalētās pakotnes."
 
 msgid " (0 - all networks)"
 msgstr " (0 - visi tīkli)"
@@ -833,6 +761,10 @@ msgstr "Pievienot jaunu nosaukumu"
 msgid "Add bookmark"
 msgstr "Grāmatzīme"
 
+#, fuzzy
+msgid "Add bouquet"
+msgstr "pievienot buķeti"
+
 msgid "Add directory to playlist"
 msgstr "Pievienot mapi repertuāram"
 
@@ -859,6 +791,10 @@ msgstr "Sākt ierakstu (apturēt pēc pašreizējās pārraides)"
 
 msgid "Add service"
 msgstr "Pievienot kanālu"
+
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "pievienot kanālu buķetei"
 
 msgid "Add timer"
 msgstr "Pievienot taimeri"
@@ -892,6 +828,9 @@ msgstr "Papildus"
 
 msgid "Advanced options"
 msgstr "Papildus iespējas"
+
+msgid "Advanced options and settings."
+msgstr "Papildus opcijas un iestatījumi."
 
 msgid "Advanced restore"
 msgstr "Papildus atjaunošana"
@@ -1367,6 +1306,9 @@ msgstr "Veidot iestatījumu dublējumkopiju"
 msgid "Backup system settings"
 msgstr "Veidot iestatījumu dublējumkopiju"
 
+msgid "Backup your receiver settings."
+msgstr "Izveidot iestatījumu dublējumkopiju."
+
 msgid "Bahamas"
 msgstr "Bahamu salas"
 
@@ -1737,8 +1679,9 @@ msgstr "Kanāls"
 msgid "Channels and EPG"
 msgstr "Kanālus un EPG"
 
+#, fuzzy
 msgid "Channels only"
-msgstr "Tikai kanālus"
+msgstr "Kanāls"
 
 msgid "Chap."
 msgstr "Nod."
@@ -3042,7 +2985,7 @@ msgid "EPG language selection 2"
 msgstr "EPG valodas izvēle 2"
 
 msgid "EPG only"
-msgstr "Tikai EPG"
+msgstr ""
 
 msgid "EPG selection"
 msgstr "EPG izvēle"
@@ -3092,14 +3035,17 @@ msgstr "Rediģēt uztvērēja DNS uzstādījumus.\n"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr "Rediģēt uztvērēja tīkla uzstādījumus.\n"
 
+msgid "Edit the update source address."
+msgstr "Rediģēt atjaunināšanas avota adresi."
+
 msgid "Edit timer"
 msgstr "Rediģēt taimeri"
 
 msgid "Edit title"
 msgstr "Rediģēt nosaukumu"
 
-msgid "Edit update source url."
-msgstr "Rediģēt atjaunināšanas avota adresi."
+msgid "Edit update source url"
+msgstr "Rediģēt atjaunināšanas avota adresi"
 
 msgid "Education/Science/..."
 msgstr "Izglītība/Zinātne/..."
@@ -4226,6 +4172,9 @@ msgstr "Islande"
 msgid "Icons"
 msgstr "Ikona"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Ja iespējots, pēc tam kad jūs pārvietosiet vai kopēsiet ierakstu, grāmatzīmes tiks atjaunotas."
 
@@ -4300,6 +4249,7 @@ msgstr "Imidžs: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja arī ieslēdzoties no gaidstāves"
 
+#, fuzzy
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
 msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja kad uztvērējs tiek islēgts"
 
@@ -4880,6 +4830,9 @@ msgstr "Malta"
 
 msgid "Manage extensions"
 msgstr "Pārvaldīt paplašinājumus"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Pārvaldīt uztvērēja paplašinājumus vai spraudņus."
 
 msgid "Manage your receiver's software"
 msgstr "Pārvaldīt uztvērēja programmatūru"
@@ -5607,6 +5560,9 @@ msgstr "Derīgu ONID gadījumā ignorēt frekvences apakšgrupas tīkla daļu"
 
 msgid "One"
 msgstr "Viens"
+
+msgid "Online update of your receiver software."
+msgstr "Uztvērēja programmatūras atjaunošana no interneta."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr "Mainiet šo iestatījumu tikai tad, ja izmantojat SCR ierīci, kas ir pārprogrammēta. Papildinformāciju prasiet personai, kura pārprogrammēja ierīci."
@@ -6746,6 +6702,12 @@ msgstr "Atjaunot dublējumkopiju"
 msgid "Restore system settings"
 msgstr "Atjaunot sistēmas iestatījumus"
 
+msgid "Restore your backups by date."
+msgstr "Atjaunot dublējumkopijas pēc datuma."
+
+msgid "Restore your receiver settings."
+msgstr "Atjaunot uztvērēja iestatījumus."
+
 msgid "Restoring..."
 msgstr "Atjauno..."
 
@@ -7034,6 +6996,9 @@ msgstr "Meklēšana pārtraukta!"
 
 msgid "Scan files..."
 msgstr "Meklē failus..."
+
+msgid "Scan for local extensions and install them."
+msgstr "Meklēt un instalēt lokālos paplašinājumus."
 
 msgid "Scan options"
 msgstr "Meklēšanas veids"
@@ -7390,8 +7355,8 @@ msgstr "Izvēlieties virtuālās tastatūras speciālo izkārtojumu"
 msgid "Select update source"
 msgstr "Izvēlieties atjaunināšanas avotu"
 
-msgid "Select update source to edit."
-msgstr "Izvēlieties atjaunināšanas avotu lai rediģētu."
+msgid "Select update source to edit"
+msgstr "Izvēlieties atjaunināšanas avotu lai rediģētu"
 
 msgid "Select video input with up/down buttons"
 msgstr "Izvēlieties video ieeju ar augšup/lejup pogām"
@@ -7407,6 +7372,13 @@ msgstr "Izvēlieties ATSC operatoru."
 
 msgid "Select your Skin"
 msgstr "Izvēlieties noformējumu"
+
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Izvēlieties dublējumkopijas ierīci.\n"
+"Pašreizējā ierīce: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr "Izvēlieties savu valsti. Ja nav pieejams, izvēlieties 'visam'"
@@ -7878,6 +7850,10 @@ msgstr "Klausīties radio..."
 
 msgid "Show the tv player..."
 msgstr "Skatīties TV..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Limitēt rakstzīmju lietošanu ierakstāmajiem failu vārdiem"
 
 msgid "Show vertical timelines"
 msgstr "Rādīt vertikālās līnijas laikam"
@@ -9790,6 +9766,9 @@ msgstr "Skatīt teletekstu..."
 
 msgid "View video CD..."
 msgstr "Skatīt video CD..."
+
+msgid "View, install and remove available or installed packages."
+msgstr "Skatīt, instalēt un dzēst pieejamās vai instalētās pakotnes."
 
 msgid "Virgin Islands (British)"
 msgstr "Virdžīniju salas (britu)"

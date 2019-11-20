@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -18,14 +18,6 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Laajat valinnat ja asetukset."
-
-#
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -33,37 +25,8 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-"\n"
-"Varmuuskopioi vastaanottimesi asetukset."
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
 msgstr ""
-
-#
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Muokkaa päivityksen lähdeosoitetta."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-"\n"
-"Hallitse lisäosia tai plugineja"
-
-msgid ""
-"\n"
-"Online update of your receiver software."
-msgstr ""
-"\n"
-"Päivitä ohjelmisto verkosta."
 
 #
 msgid ""
@@ -87,39 +50,6 @@ msgstr ""
 "\n"
 "Tallennus käynnissä."
 
-#
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Palauta varmuuskopiot päivän mukaan."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-"\n"
-"Palauta vastaanottimesi asetukset."
-
-#
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Etsi paikallisia lisäosia ja asenna ne."
-
-#
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Valitse tallennuspaikka varmuuskopiolle.\n"
-"Nykyinen valinta: "
-
 #, python-format
 msgid ""
 "\n"
@@ -127,14 +57,6 @@ msgid ""
 msgstr ""
 "\n"
 "Ajastus '%s' on pois päältä!"
-
-#
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Katsele, asenna ja poista ohjelmapaketteja."
 
 #
 msgid " (0 - all networks)"
@@ -888,6 +810,11 @@ msgid "Add bookmark"
 msgstr "Lisää kirjanmerkki"
 
 #
+#, fuzzy
+msgid "Add bouquet"
+msgstr "Lisää uusi suosikkilista"
+
+#
 msgid "Add directory to playlist"
 msgstr "Lisää hakemisto soittolistalle"
 
@@ -918,6 +845,11 @@ msgstr "Tallenna (Lopeta nykyisen ohjelman jälkeen)"
 #
 msgid "Add service"
 msgstr "Lisää kanava"
+
+#
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "Lisää kanava suosikkilistalle"
 
 #
 msgid "Add timer"
@@ -962,6 +894,10 @@ msgstr "Laaja"
 #
 msgid "Advanced options"
 msgstr "Laajat valinnat"
+
+#
+msgid "Advanced options and settings."
+msgstr "Laajat valinnat ja asetukset."
 
 #
 msgid "Advanced restore"
@@ -1479,6 +1415,9 @@ msgstr "Varmuuskopioi asetukset"
 msgid "Backup system settings"
 msgstr "Varmuuskopioi asetukset"
 
+msgid "Backup your receiver settings."
+msgstr "Varmuuskopioi vastaanottimesi asetukset."
+
 msgid "Bahamas"
 msgstr "Bahama-saaret"
 
@@ -1889,8 +1828,9 @@ msgid "Channels and EPG"
 msgstr "Kanavat ja ohjelmaopas"
 
 #
+#, fuzzy
 msgid "Channels only"
-msgstr "Vain kanavat"
+msgstr "Kanava"
 
 #
 msgid "Chap."
@@ -3343,7 +3283,7 @@ msgid "EPG language selection 2"
 msgstr "Ohjelmaoppaan kieli 2"
 
 msgid "EPG only"
-msgstr "Vain ohjelmaopas"
+msgstr ""
 
 #
 msgid "EPG selection"
@@ -3403,6 +3343,10 @@ msgid "Edit the network configuration of your receiver.\n"
 msgstr "Muokkaa verkkoasetuksia vastaanottimessasi.\n"
 
 #
+msgid "Edit the update source address."
+msgstr "Muokkaa päivityksen lähdeosoitetta."
+
+#
 msgid "Edit timer"
 msgstr "Muokkaa ajastusta"
 
@@ -3411,8 +3355,8 @@ msgid "Edit title"
 msgstr "Editoi"
 
 #
-msgid "Edit update source url."
-msgstr "Muokkaa päivitys-URL:ia."
+msgid "Edit update source url"
+msgstr "Muokkaa päivitys-URL:ia"
 
 msgid "Education/Science/..."
 msgstr "Koulutus/Tiede/..."
@@ -4627,6 +4571,9 @@ msgstr "Islanti"
 msgid "Icons"
 msgstr "Kuvake"
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Jos päällä, kirjamerkit päivitetään automaattisesti tallennuksen kopioinnin tai siirron jälkeen."
 
@@ -4704,6 +4651,7 @@ msgstr "Ohjelmisto: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta valmiustilasta poistuttaessa"
 
+#, fuzzy
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
 msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
 
@@ -5371,6 +5319,9 @@ msgstr "Malta"
 
 msgid "Manage extensions"
 msgstr "Hallitse laajennuksia"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr "Hallitse lisäosia tai plugineja."
 
 #
 msgid "Manage your receiver's software"
@@ -6223,6 +6174,9 @@ msgstr "Jätä huomioimatta taajuuksien aliverkon osuus"
 #
 msgid "One"
 msgstr "Yksi"
+
+msgid "Online update of your receiver software."
+msgstr "Päivitä ohjelmisto verkosta."
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -7544,6 +7498,13 @@ msgstr "Palauta varmuuskopiot"
 msgid "Restore system settings"
 msgstr "Palauta asetukset"
 
+#
+msgid "Restore your backups by date."
+msgstr "Palauta varmuuskopiot päivän mukaan."
+
+msgid "Restore your receiver settings."
+msgstr "Palauta vastaanottimesi asetukset."
+
 msgid "Restoring..."
 msgstr "Palautetaan..."
 
@@ -7864,6 +7825,10 @@ msgstr "Haku epäonnistui"
 #
 msgid "Scan files..."
 msgstr "Hae tiedostoja..."
+
+#
+msgid "Scan for local extensions and install them."
+msgstr "Etsi paikallisia lisäosia ja asenna ne."
 
 #
 msgid "Scan options"
@@ -8265,8 +8230,8 @@ msgid "Select update source"
 msgstr "Valitse päivityksen lähde"
 
 #
-msgid "Select update source to edit."
-msgstr "Valitse muokattava päivityslähde."
+msgid "Select update source to edit"
+msgstr "Valitse muokattava päivityslähde"
 
 #
 msgid "Select video input with up/down buttons"
@@ -8285,6 +8250,14 @@ msgstr "ATSC palveluntarjoaja"
 
 msgid "Select your Skin"
 msgstr "Valitse Teema"
+
+#
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Valitse tallennuspaikka varmuuskopiolle.\n"
+"Nykyinen valinta: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr "Valitse maa. Jos ei haluamaasi löydy, valitse 'kaikki'."
@@ -8807,6 +8780,10 @@ msgstr "Näytä radiosoitin..."
 #
 msgid "Show the tv player..."
 msgstr "Näytä tv..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Rajoita tallenteiden merkistöä"
 
 msgid "Show vertical timelines"
 msgstr "Näytä pystysuorat aikajanat"
@@ -10963,6 +10940,10 @@ msgstr "Näytä teksti-tv..."
 #
 msgid "View video CD..."
 msgstr "Katso Video-CD..."
+
+#
+msgid "View, install and remove available or installed packages."
+msgstr "Katsele, asenna ja poista ohjelmapaketteja."
 
 msgid "Virgin Islands (British)"
 msgstr "Virgin Islands (British)"

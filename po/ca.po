@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2007-08-14 10:23+0200\n"
 "Last-Translator: Oriol Pellicer <oriol@elsud.org>\n"
 "Language-Team: \n"
@@ -22,39 +22,12 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-
-#
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
-msgstr ""
-
-#
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-
-msgid ""
-"\n"
-"Online update of your receiver software."
 msgstr ""
 
 #
@@ -75,40 +48,10 @@ msgid ""
 "Recording in progress."
 msgstr ""
 
-#
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-
-#
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-
-#
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
-msgstr ""
-
-#
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
 msgstr ""
 
 msgid " (0 - all networks)"
@@ -875,6 +818,11 @@ msgstr "Afegir una marca"
 
 #
 #, fuzzy
+msgid "Add bouquet"
+msgstr "afegir llista"
+
+#
+#, fuzzy
 msgid "Add directory to playlist"
 msgstr "afegir el directori a la llista"
 
@@ -919,6 +867,11 @@ msgid "Add service"
 msgstr "Canal"
 
 #
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "afegir el canal a la llista"
+
+#
 msgid "Add timer"
 msgstr "Gravar"
 
@@ -954,6 +907,10 @@ msgid "Advanced"
 msgstr ""
 
 msgid "Advanced options"
+msgstr ""
+
+#
+msgid "Advanced options and settings."
 msgstr ""
 
 #
@@ -1469,6 +1426,9 @@ msgstr "Sí, fes un backup de la configuració!"
 
 #
 msgid "Backup system settings"
+msgstr ""
+
+msgid "Backup your receiver settings."
 msgstr ""
 
 msgid "Bahamas"
@@ -3439,6 +3399,10 @@ msgstr ""
 msgid "Edit the network configuration of your receiver.\n"
 msgstr ""
 
+#
+msgid "Edit the update source address."
+msgstr ""
+
 msgid "Edit timer"
 msgstr ""
 
@@ -3447,7 +3411,7 @@ msgid "Edit title"
 msgstr ""
 
 #
-msgid "Edit update source url."
+msgid "Edit update source url"
 msgstr ""
 
 msgid "Education/Science/..."
@@ -4689,6 +4653,9 @@ msgstr ""
 msgid "Icons"
 msgstr ""
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -5439,6 +5406,9 @@ msgstr ""
 
 #
 msgid "Manage extensions"
+msgstr ""
+
+msgid "Manage extensions or plugins for your receiver."
 msgstr ""
 
 #
@@ -6298,6 +6268,9 @@ msgstr ""
 #
 msgid "One"
 msgstr "Un"
+
+msgid "Online update of your receiver software."
+msgstr ""
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -7638,6 +7611,13 @@ msgid "Restore system settings"
 msgstr ""
 
 #
+msgid "Restore your backups by date."
+msgstr ""
+
+msgid "Restore your receiver settings."
+msgstr ""
+
+#
 #, fuzzy
 msgid "Restoring..."
 msgstr "gravant..."
@@ -7972,6 +7952,10 @@ msgstr "Ha fallat la sintonització!"
 #, fuzzy
 msgid "Scan files..."
 msgstr "Arxius gravats..."
+
+#
+msgid "Scan for local extensions and install them."
+msgstr ""
 
 msgid "Scan options"
 msgstr ""
@@ -8394,7 +8378,7 @@ msgid "Select update source"
 msgstr "Seleccionar una pel·lícula"
 
 #
-msgid "Select update source to edit."
+msgid "Select update source to edit"
 msgstr ""
 
 #
@@ -8415,6 +8399,12 @@ msgid "Select your ATSC provider."
 msgstr "Seleccionar una pel·lícula"
 
 msgid "Select your Skin"
+msgstr ""
+
+#
+msgid ""
+"Select your backup device.\n"
+"Current device: "
 msgstr ""
 
 msgid "Select your country. If not available select 'all'."
@@ -8940,6 +8930,9 @@ msgstr "Reproductor de ràdio..."
 #
 msgid "Show the tv player..."
 msgstr "Mostrar el reproductor de tv..."
+
+msgid "Show underline characters in filenames"
+msgstr ""
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -11083,6 +11076,10 @@ msgid "View teletext..."
 msgstr "Veure teletext..."
 
 msgid "View video CD..."
+msgstr ""
+
+#
+msgid "View, install and remove available or installed packages."
 msgstr ""
 
 msgid "Virgin Islands (British)"

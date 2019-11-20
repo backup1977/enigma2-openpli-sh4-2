@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2011-05-07 12:23+0200\n"
 "Last-Translator: Baldur <bsveinsson@gmail.com>\n"
 "Language-Team: Polar Team/LT Team <baddi@oreind.is>\n"
@@ -20,13 +20,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"Auka sérfræði stillingar."
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -34,29 +27,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
-msgstr ""
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"Breyta veffangi uppfærslu uppruna."
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-
-msgid ""
-"\n"
-"Online update of your receiver software."
 msgstr ""
 
 #
@@ -79,49 +50,11 @@ msgid ""
 "Recording in progress."
 msgstr ""
 
-#
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"Setja inn stilligar eftir dagsetningu."
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-"\n"
-"Leita að viðbótum á móttakara og setja þær upp."
-
-#
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"Veldu afritunar tæki.\n"
-"Núverandi tæki:"
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
 msgstr ""
-
-#
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"Skoða, setja inn og taka út hugbúnaðar pakka."
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -883,6 +816,11 @@ msgstr "bæta við bókamerki"
 
 #
 #, fuzzy
+msgid "Add bouquet"
+msgstr "bæta rásavendi við"
+
+#
+#, fuzzy
 msgid "Add directory to playlist"
 msgstr "bæta möppu við spilunarlista"
 
@@ -926,6 +864,11 @@ msgstr "bæta við upptöku (stoppa eftir núverandi atriði)"
 msgid "Add service"
 msgstr "bæta við rás"
 
+#
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "bæta rás við fléttu"
+
 msgid "Add timer"
 msgstr "Taka upp"
 
@@ -959,6 +902,9 @@ msgstr ""
 #, fuzzy
 msgid "Advanced options"
 msgstr "Sérfræði stillingar"
+
+msgid "Advanced options and settings."
+msgstr "Auka sérfræði stillingar."
 
 msgid "Advanced restore"
 msgstr "Sérfræði innsetning afrita"
@@ -1466,6 +1412,9 @@ msgstr "Afrita kerfis stillingar"
 
 msgid "Backup system settings"
 msgstr "Afrita kerfis stillingar"
+
+msgid "Backup your receiver settings."
+msgstr ""
 
 msgid "Bahamas"
 msgstr ""
@@ -3369,6 +3318,9 @@ msgstr "fara úr nafnaþjóns stillingum"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr ""
 
+msgid "Edit the update source address."
+msgstr "Breyta veffangi uppfærslu uppruna."
+
 msgid "Edit timer"
 msgstr ""
 
@@ -3376,8 +3328,8 @@ msgstr ""
 msgid "Edit title"
 msgstr "Breyta titili"
 
-msgid "Edit update source url."
-msgstr "Breyta uppfærslu uppruna slóð."
+msgid "Edit update source url"
+msgstr "Breyta uppfærslu uppruna slóð"
 
 msgid "Education/Science/..."
 msgstr ""
@@ -4619,6 +4571,9 @@ msgstr ""
 msgid "Icons"
 msgstr ""
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -5389,6 +5344,9 @@ msgstr ""
 
 msgid "Manage extensions"
 msgstr "Sýsla með íforrit"
+
+msgid "Manage extensions or plugins for your receiver."
+msgstr ""
 
 #
 msgid "Manage your receiver's software"
@@ -6257,6 +6215,9 @@ msgstr ""
 #
 msgid "One"
 msgstr "Einn"
+
+msgid "Online update of your receiver software."
+msgstr ""
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -7609,6 +7570,13 @@ msgid "Restore system settings"
 msgstr "Setja inn kerfis stillingar"
 
 #
+msgid "Restore your backups by date."
+msgstr "Setja inn stilligar eftir dagsetningu."
+
+msgid "Restore your receiver settings."
+msgstr ""
+
+#
 #, fuzzy
 msgid "Restoring..."
 msgstr "tek upp...."
@@ -7941,6 +7909,9 @@ msgstr "Tókst ekki að stilla inn!"
 #, fuzzy
 msgid "Scan files..."
 msgstr "Leita að skrám..."
+
+msgid "Scan for local extensions and install them."
+msgstr "Leita að viðbótum á móttakara og setja þær upp."
 
 msgid "Scan options"
 msgstr ""
@@ -8356,8 +8327,8 @@ msgid "Select update source"
 msgstr "Veldu upphafs slóð til að breyta."
 
 #
-msgid "Select update source to edit."
-msgstr "Veldu upphafs slóð til að breyta."
+msgid "Select update source to edit"
+msgstr "Veldu upphafs slóð til að breyta"
 
 #
 msgid "Select video input with up/down buttons"
@@ -8378,6 +8349,14 @@ msgstr "Veldu sendanda til að bæta við..."
 
 msgid "Select your Skin"
 msgstr ""
+
+#
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"Veldu afritunar tæki.\n"
+"Núverandi tæki:"
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -8918,6 +8897,11 @@ msgstr "Sýna útvarpsspilara..."
 
 msgid "Show the tv player..."
 msgstr "Sýna sjónvarpsspilara..."
+
+#
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "Takmarkað stafa úrval fyrir skráar nöfn á upptökum"
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -11136,6 +11120,10 @@ msgstr "Skoða textavarp..."
 #, fuzzy
 msgid "View video CD..."
 msgstr "Skoða Video CD..."
+
+#
+msgid "View, install and remove available or installed packages."
+msgstr "Skoða, setja inn og taka út hugbúnaðar pakka."
 
 msgid "Virgin Islands (British)"
 msgstr ""

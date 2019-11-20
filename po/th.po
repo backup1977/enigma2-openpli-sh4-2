@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 09:34+0200\n"
+"POT-Creation-Date: 2019-11-18 18:59+0100\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -21,13 +21,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Advanced options and settings."
-msgstr ""
-"\n"
-"ตั้งค่าขั้นสูง"
-
-msgid ""
-"\n"
 "After pressing OK, please wait!"
 msgstr ""
 "\n"
@@ -35,29 +28,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your receiver settings."
-msgstr ""
-
-msgid ""
-"\n"
 "Conflict detection disabled!"
-msgstr ""
-
-msgid ""
-"\n"
-"Edit the update source address."
-msgstr ""
-"\n"
-"แก้ไขที่อยู่เพื่อโหลดส่วนปรับปรุง"
-
-msgid ""
-"\n"
-"Manage extensions or plugins for your receiver"
-msgstr ""
-
-msgid ""
-"\n"
-"Online update of your receiver software."
 msgstr ""
 
 msgid ""
@@ -78,44 +49,11 @@ msgid ""
 "Recording in progress."
 msgstr ""
 
-msgid ""
-"\n"
-"Restore your backups by date."
-msgstr ""
-"\n"
-"นำสำรองกลับมาใช้ตามวันที่"
-
-msgid ""
-"\n"
-"Restore your receiver settings."
-msgstr ""
-
-msgid ""
-"\n"
-"Scan for local extensions and install them."
-msgstr ""
-
-msgid ""
-"\n"
-"Select your backup device.\n"
-"Current device: "
-msgstr ""
-"\n"
-"เลือกอุปกรณ์\n"
-"อุปกรณ์ปัจจุบันคือ: "
-
 #, python-format
 msgid ""
 "\n"
 "Timer '%s' disabled!"
 msgstr ""
-
-msgid ""
-"\n"
-"View, install and remove available or installed packages."
-msgstr ""
-"\n"
-"ตรวจดู ติดตั้งหรือลบส่วนประกอบ"
 
 msgid " (0 - all networks)"
 msgstr ""
@@ -804,6 +742,10 @@ msgid "Add bookmark"
 msgstr "เพิ่มบุ๊คมาร์ค"
 
 #, fuzzy
+msgid "Add bouquet"
+msgstr "เพิ่มกลุ่มรายการ"
+
+#, fuzzy
 msgid "Add directory to playlist"
 msgstr "เพิ่มทั้งโฟล์เดอร์เข้าสารบัญ"
 
@@ -839,6 +781,10 @@ msgstr "บันทึกรายการ (หยุดเมื่อจบ�
 msgid "Add service"
 msgstr "เพิ่มบริการ"
 
+#, fuzzy
+msgid "Add services to this bouquet?"
+msgstr "เพิ่มบริการเข้าสู่กลุ่มรายการ"
+
 msgid "Add timer"
 msgstr "เพิ่มลงตารางเวลา"
 
@@ -872,6 +818,9 @@ msgstr ""
 #, fuzzy
 msgid "Advanced options"
 msgstr "ตัวเลือกขั้นสูง"
+
+msgid "Advanced options and settings."
+msgstr "ตั้งค่าขั้นสูง"
 
 msgid "Advanced restore"
 msgstr "นำข้อมูลกลับมาใช้แบบขั้นสูง"
@@ -1364,6 +1313,9 @@ msgstr "ตั้งค่าสำรองข้อมูลระบบ"
 
 msgid "Backup system settings"
 msgstr "ตั้งค่าสำรองข้อมูลระบบ"
+
+msgid "Backup your receiver settings."
+msgstr ""
 
 msgid "Bahamas"
 msgstr ""
@@ -3165,13 +3117,16 @@ msgstr "ออกจากการตั้งค่า Nameserver"
 msgid "Edit the network configuration of your receiver.\n"
 msgstr ""
 
+msgid "Edit the update source address."
+msgstr "แก้ไขที่อยู่เพื่อโหลดส่วนปรับปรุง"
+
 msgid "Edit timer"
 msgstr ""
 
 msgid "Edit title"
 msgstr "แก้ไขชื่อเรื่อง"
 
-msgid "Edit update source url."
+msgid "Edit update source url"
 msgstr "แก้ไข URL ของเซอร์พเวอร์เพื่อปรับปรุง"
 
 msgid "Education/Science/..."
@@ -4317,6 +4272,9 @@ msgstr ""
 msgid "Icons"
 msgstr ""
 
+msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr ""
 
@@ -5009,6 +4967,9 @@ msgid "Malta"
 msgstr ""
 
 msgid "Manage extensions"
+msgstr ""
+
+msgid "Manage extensions or plugins for your receiver."
 msgstr ""
 
 msgid "Manage your receiver's software"
@@ -5771,6 +5732,9 @@ msgstr ""
 
 msgid "One"
 msgstr "หนึ่ง"
+
+msgid "Online update of your receiver software."
+msgstr ""
 
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr ""
@@ -6959,6 +6923,12 @@ msgstr "นำสำรองกลับมาใช้"
 msgid "Restore system settings"
 msgstr "นำสำรองการตั้งค่าต่างๆ กลับมาใช้"
 
+msgid "Restore your backups by date."
+msgstr "นำสำรองกลับมาใช้ตามวันที่"
+
+msgid "Restore your receiver settings."
+msgstr ""
+
 #, fuzzy
 msgid "Restoring..."
 msgstr "กำลังบันทึกรายการ..."
@@ -7257,6 +7227,9 @@ msgstr "ปรับค่าล้มเหลว!"
 #, fuzzy
 msgid "Scan files..."
 msgstr "ค้นหาไฟล์..."
+
+msgid "Scan for local extensions and install them."
+msgstr ""
 
 msgid "Scan options"
 msgstr ""
@@ -7636,7 +7609,7 @@ msgstr ""
 msgid "Select update source"
 msgstr "เลือกที่มาเพื่อปรับปรุง"
 
-msgid "Select update source to edit."
+msgid "Select update source to edit"
 msgstr "เลือกที่มาเพื่อปรับปรุง"
 
 msgid "Select video input with up/down buttons"
@@ -7654,6 +7627,13 @@ msgstr "เลือกผู้ให้บริการที่ต้อง
 
 msgid "Select your Skin"
 msgstr ""
+
+msgid ""
+"Select your backup device.\n"
+"Current device: "
+msgstr ""
+"เลือกอุปกรณ์\n"
+"อุปกรณ์ปัจจุบันคือ: "
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
@@ -8151,6 +8131,10 @@ msgstr "แสดงเครื่องเล่นวิทยุ..."
 
 msgid "Show the tv player..."
 msgstr "แสดงเครื่องเล่นโทรทัศน์..."
+
+#, fuzzy
+msgid "Show underline characters in filenames"
+msgstr "จำกัดความยาวของไฟล์"
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -10124,6 +10108,9 @@ msgstr "อ่านเทเลเท็กซ์..."
 #, fuzzy
 msgid "View video CD..."
 msgstr "ดูวีซีดี"
+
+msgid "View, install and remove available or installed packages."
+msgstr "ตรวจดู ติดตั้งหรือลบส่วนประกอบ"
 
 msgid "Virgin Islands (British)"
 msgstr ""
