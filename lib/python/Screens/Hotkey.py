@@ -9,6 +9,7 @@ from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
 from Plugins.Plugin import PluginDescriptor
 from Tools.BoundFunction import boundFunction
+from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from ServiceReference import ServiceReference
 from enigma import eServiceReference
 from Components.Pixmap import Pixmap
@@ -172,10 +173,10 @@ def getHotkeyFunctions():
 	hotkey.functions.append((_("Toggle infoBar"), "Infobar/toggleShow", "InfoBar"))
 	hotkey.functions.append((_("Letterbox zoom"), "Infobar/vmodeSelection", "InfoBar"))
 	if SystemInfo["PIPAvailable"]:
-		hotkey.functions.append((_("Show PIP"), "Infobar/showPiP", "InfoBar"))
-		hotkey.functions.append((_("Swap PIP"), "Infobar/swapPiP", "InfoBar"))
-		hotkey.functions.append((_("Move PIP"), "Infobar/movePiP", "InfoBar"))
-		hotkey.functions.append((_("Toggle PIPzap"), "Infobar/togglePipzap", "InfoBar"))
+		hotkey.functions.append((_("Show PiP"), "Infobar/showPiP", "InfoBar"))
+		hotkey.functions.append((_("Swap PiP"), "Infobar/swapPiP", "InfoBar"))
+		hotkey.functions.append((_("Move PiP"), "Infobar/movePiP", "InfoBar"))
+		hotkey.functions.append((_("Toggle PiPzap"), "Infobar/togglePipzap", "InfoBar"))
 	hotkey.functions.append((_("Activate HbbTV (Redbutton)"), "Infobar/activateRedButton", "InfoBar"))
 	hotkey.functions.append((_("Toggle HDMI In"), "Infobar/HDMIIn", "InfoBar"))
 	if SystemInfo["LcdLiveTV"]:
@@ -223,7 +224,7 @@ def getHotkeyFunctions():
 	hotkey.functions.append((_("Language"), "Module/Screens.LanguageSelection/LanguageSelection", "Setup"))
 	hotkey.functions.append((_("Memory Info"), "Module/Screens.About/MemoryInfo", "Setup"))
 	if SystemInfo["canMultiBoot"]:
-		hotkey.functions.append((_("Multiboot"), "Module/Screens.FlashImage/MultibootSelection", "Setup"))
+		hotkey.functions.append((_("Multiboot image selector"), "Module/Screens.FlashImage/MultibootSelection", "Setup"))
 	if os.path.isdir("/etc/ppanels"):
 		for x in [x for x in os.listdir("/etc/ppanels") if x.endswith(".xml")]:
 			x = x[:-4]
@@ -664,7 +665,7 @@ class InfoBarHotkey():
 					config.movielist.last_videodir.value = moviepath
 			elif selected[0] == "PPanel":
 				ppanelFileName = '/etc/ppanels/' + selected[1] + ".xml"
-				if os.path.isfile(ppanelFileName) and os.path.isdir('/usr/lib/enigma2/python/Plugins/Extensions/PPanel'):
+				if os.path.isfile(ppanelFileName) and os.path.isdir(resolveFilename(SCOPE_PLUGINS, 'Extensions/PPanel')):
 					from Plugins.Extensions.PPanel.ppanel import PPanel
 					self.session.open(PPanel, name=selected[1] + ' PPanel', node=None, filename=ppanelFileName, deletenode=None)
 			elif selected[0] == "Shellscript":
