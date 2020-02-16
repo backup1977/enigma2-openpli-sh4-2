@@ -22,9 +22,14 @@ def getparam(line, param):
 
 def getMultibootslots():
 	bootslots = {}
+	mode12found = False
 	if SystemInfo["MultibootStartupDevice"]:
 		for file in glob.glob(os.path.join(TMP_MOUNT, 'STARTUP_*')):
-			slotnumber = file.rsplit('_', 3 if 'BOXMODE' in file else 1)[1]
+			if 'MODE_' in file:
+				mode12found = True
+				slotnumber = file.rsplit('_', 3)[1]
+			else:
+				slotnumber = file.rsplit('_', 1)[1]
 			if slotnumber.isdigit() and slotnumber not in bootslots:
 				slot = {}
 				for line in open(file).readlines():
@@ -32,7 +37,7 @@ def getMultibootslots():
 						device = getparam(line, 'root')
 						if os.path.exists(device):
 							slot['device'] = device
-							slot['startupfile'] = os.path.basename(file).split('_BOXMODE')[0]
+							slot['startupfile'] = os.path.basename(file)
 							if 'rootsubdir' in line:
 								slot['rootsubdir'] = getparam(line, 'rootsubdir')
 						break
@@ -41,6 +46,10 @@ def getMultibootslots():
 		Console().ePopen('umount %s' % TMP_MOUNT)
 		if not os.path.ismount(TMP_MOUNT):
 			os.rmdir(TMP_MOUNT)
+		if not mode12found and SystemInfo["canMode12"]:
+			#the boot device has ancient content and does not contain the correct STARTUP files
+			for slot in range(1,5):
+				bootslots[slot] = { 'device': '/dev/mmcblk0p%s' % (slot * 2 + 1), 'startupfile': None}
 	print '[Multiboot] Bootslots found:', bootslots
 	return bootslots
 
@@ -86,19 +95,17 @@ class GetImagelist():
 		if retval:
 			self.imagelist[self.slot] = { 'imagename': _("Empty slot") }
 		if retval == 0 and self.phase == self.MOUNT:
-			def getImagename(target):
-				from datetime import datetime
-				date = datetime.fromtimestamp(os.stat(os.path.join(target, "var/lib/opkg/status")).st_mtime).strftime('%Y-%m-%d')
-				if date.startswith("1970"):
-					try:
-						date = datetime.fromtimestamp(os.stat(os.path.join(target, "usr/share/bootlogo.mvi")).st_mtime).strftime('%Y-%m-%d')
-					except:
-						pass
-					date = max(date, datetime.fromtimestamp(os.stat(os.path.join(target, "usr/bin/enigma2")).st_mtime).strftime('%Y-%m-%d'))
-				return "%s (%s)" % (open(os.path.join(target, "etc/issue")).readlines()[-2].capitalize().strip()[:-6], date)
 			imagedir = os.sep.join(filter(None, [TMP_MOUNT, SystemInfo["canMultiBoot"][self.slot].get('rootsubdir', '')]))
-			if os.path.isfile(os.path.join(imagedir, '/usr/bin/enigma2')):
-				self.imagelist[self.slot] = { 'imagename': getImagename(imagedir) }
+			if os.path.isfile(os.path.join(imagedir, 'usr/bin/enigma2')):
+				try:
+					from datetime import datetime
+					date = datetime.fromtimestamp(os.stat(os.path.join(imagedir, "var/lib/opkg/status")).st_mtime).strftime('%Y-%m-%d')
+					if date.startswith("1970"):
+						date = datetime.fromtimestamp(os.stat(os.path.join(imagedir, "usr/share/bootlogo.mvi")).st_mtime).strftime('%Y-%m-%d')
+					date = max(date, datetime.fromtimestamp(os.stat(os.path.join(imagedir, "usr/bin/enigma2")).st_mtime).strftime('%Y-%m-%d'))
+				except:
+					date = _("Unknown")
+				self.imagelist[self.slot] = { 'imagename': "%s (%s)" % (open(os.path.join(imagedir, "etc/issue")).readlines()[-2].capitalize().strip()[:-6], date) }
 			else:
 				self.imagelist[self.slot] = { 'imagename': _("Empty slot") }
 			if self.slots and SystemInfo["canMultiBoot"][self.slot]['device'] == SystemInfo["canMultiBoot"][self.slots[0]]['device']:
