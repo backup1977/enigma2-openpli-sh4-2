@@ -174,6 +174,7 @@ def getHotkeyFunctions():
 	hotkey.functions.append((_("Show InfoBar"), "Infobar/showFirstInfoBar", "InfoBar"))
 	hotkey.functions.append((_("Show second InfoBar"), "Infobar/showSecondInfoBar", "InfoBar"))
 	hotkey.functions.append((_("Toggle infoBar"), "Infobar/toggleShow", "InfoBar"))
+	hotkey.functions.append((_("Toggle videomode"), "Infobar/ToggleVideoMode", "InfoBar"))
 	hotkey.functions.append((_("Letterbox zoom"), "Infobar/vmodeSelection", "InfoBar"))
 	if SystemInfo["PIPAvailable"]:
 		hotkey.functions.append((_("Show PiP"), "Infobar/showPiP", "InfoBar"))
@@ -240,7 +241,7 @@ def getHotkeyFunctions():
 config.misc.hotkey = ConfigSubsection()
 config.misc.hotkey.additional_keys = ConfigYesNo(default=False)
 for x in hotkey.hotkeys:
-        exec "config.misc.hotkey.%s = ConfigText(default='%s')" % x[1:]
+	exec "config.misc.hotkey.%s = ConfigText(default='%s')" % x[1:]
 
 class HotkeySetup(Screen):
 	ALLOW_SUSPEND = False
