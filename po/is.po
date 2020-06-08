@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
-"PO-Revision-Date: 2011-05-07 12:23+0200\n"
+"POT-Creation-Date: 2020-05-16 18:29+0200\n"
+"PO-Revision-Date: 2020-05-16 18:44+0200\n"
 "Last-Translator: Baldur <bsveinsson@gmail.com>\n"
 "Language-Team: Polar Team/LT Team <baddi@oreind.is>\n"
 "Language: is\n"
@@ -13,10 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
-"X-Poedit-Language: Icelandic\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: ICELAND\n"
 
 msgid ""
 "\n"
@@ -1162,6 +1160,12 @@ msgstr ""
 msgid "Arabic"
 msgstr "Arabíska"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr ""
+"Ertu viss um að þú viljir eyða\n"
+"eftirfarandi afriti:\n"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr ""
 
@@ -1179,6 +1183,9 @@ msgid "Are you sure to remove all terrestrial services?"
 msgstr ""
 
 msgid "Are you sure to remove this entry?"
+msgstr ""
+
+msgid "Are you sure to restore all deleted images"
 msgstr ""
 
 msgid ""
@@ -1247,10 +1254,6 @@ msgstr "Spyrja notanda"
 
 #, fuzzy
 msgid "Aspect ratio"
-msgstr "Stærðarhlutfall"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Stærðarhlutfall"
 
 #
@@ -2012,6 +2015,10 @@ msgstr "Stillingar safns"
 
 #, fuzzy
 msgid "Colombia"
+msgstr "Lita kerfi"
+
+#, fuzzy
+msgid "Color"
 msgstr "Lita kerfi"
 
 #, fuzzy
@@ -2866,6 +2873,11 @@ msgid "Delete"
 msgstr "Eyða"
 
 #
+#, fuzzy
+msgid "Delete Image"
+msgstr "eyða skrá"
+
+#
 msgid "Delete entry"
 msgstr "Eyða innslætti"
 
@@ -2907,6 +2919,11 @@ msgstr ""
 
 msgid "Deleted"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Deleted image"
+msgstr "eyða skrá"
 
 msgid "Deleted items"
 msgstr ""
@@ -3243,7 +3260,7 @@ msgstr ""
 msgid "Do you want to reboot your receiver?"
 msgstr ""
 
-msgid "Do you want to remove all the crahs logfiles"
+msgid "Do you want to remove all the crash logfiles"
 msgstr ""
 
 #
@@ -7072,9 +7089,6 @@ msgstr ""
 msgid "PowerMenu"
 msgstr ""
 
-msgid "Powerless"
-msgstr ""
-
 #
 msgid "Predefined transponder"
 msgstr "Fyrirfram forritaður sendir"
@@ -7795,6 +7809,11 @@ msgstr "Setja inn afrit"
 msgid "Restore defaults"
 msgstr "Setja inn afrit"
 
+#
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Setja inn afrit"
+
 msgid "Restore deleted user bouquets"
 msgstr ""
 
@@ -7836,10 +7855,6 @@ msgstr "Held áfram spilun"
 #, fuzzy
 msgid "Retrieving image list - Please wait..."
 msgstr "Næ í upplýsingar um íforrit. Vinsamlega bíðið..."
-
-#, fuzzy
-msgid "Retrieving image slots - Please wait..."
-msgstr "Leita að tiltækum uppfærslum. Vinsamlega bíðið..."
 
 #
 msgid "Return to movie list"
@@ -9899,15 +9914,19 @@ msgstr ""
 msgid "Switch channel up"
 msgstr ""
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
 
 #
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
+
+#
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
 
 msgid "Switch to TV mode"
@@ -10009,12 +10028,6 @@ msgstr ""
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
 msgstr ""
-"Dreifingaraðili á Íslandi:\n"
-" Öreind sf. Auðbrekka 3\n"
-"200 Kópavogur\n"
-"\n"
-"Email: oreind@oreind.is\n"
-"Vefur: http://www.oreind.is"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10683,10 +10696,6 @@ msgstr ""
 msgid "Toggle a cut mark at the current position"
 msgstr "setja merki á núverandi stað"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Stærðarhlutfall"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr ""
 
@@ -10701,6 +10710,11 @@ msgstr ""
 
 msgid "Toggle the tv and the radio player..."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Veldu mynd stillingu"
 
 msgid "Togo"
 msgstr ""
@@ -11852,13 +11866,15 @@ msgstr ""
 msgid "With popup"
 msgstr ""
 
-msgid "With this option you can switch off the display during operation."
+#
+#, fuzzy
+msgid "With this option you can switch on the display during operation."
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
+
+msgid "With this option you can switch on the display in Deep Standby Mode."
 msgstr ""
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
-
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr ""
 
 msgid "With this option you can switch the LED color or deactivate the LED."

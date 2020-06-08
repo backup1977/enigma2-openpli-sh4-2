@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
-"PO-Revision-Date: 2020-05-02 18:27+0200\n"
+"POT-Creation-Date: 2020-05-16 18:29+0200\n"
+"PO-Revision-Date: 2020-05-16 18:35+0200\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
 "Language: fr\n"
@@ -1045,6 +1045,9 @@ msgstr "Pour toute activité"
 msgid "Arabic"
 msgstr "Arabe"
 
+msgid "Are you sure to delete image:"
+msgstr "Etes-vous sûr d’effacer l’image:"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Êtes-vous certains de vouloir supprimer tous les bouquets utilisateurs effacés?"
 
@@ -1063,6 +1066,9 @@ msgstr "Êtes-vous sûr de vouloir supprimer tous les services terrestres?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Êtes-vous sûr de vouloir supprimer cette entrée?"
+
+msgid "Are you sure to restore all deleted images"
+msgstr "Êtes-vous sûr de vouloir restaurer toutes les images effacées?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1130,10 +1136,6 @@ msgstr "Demander à l'utilisateur"
 
 msgid "Aspect ratio"
 msgstr "Format d'image"
-
-#, python-format
-msgid "Aspect ratio changed to %s"
-msgstr "Format d'image changé en %s"
 
 msgid "Assigned CAIds:"
 msgstr "CAIds assignés:"
@@ -1862,6 +1864,9 @@ msgstr "Paramètres de la collection"
 
 msgid "Colombia"
 msgstr "Colombie"
+
+msgid "Color"
+msgstr "Couleur"
 
 msgid "Color format"
 msgstr "Format de couleur"
@@ -2640,6 +2645,9 @@ msgstr "Délai en millisecondes entre les caractères qui défilent sur l'affich
 msgid "Delete"
 msgstr "Supprimer"
 
+msgid "Delete Image"
+msgstr "Supprimer l’image"
+
 msgid "Delete entry"
 msgstr "Supprimer l’entrée"
 
@@ -2672,6 +2680,9 @@ msgstr "Supprimer la programmation"
 
 msgid "Deleted"
 msgstr "Supprimé"
+
+msgid "Deleted image"
+msgstr "Image effacée"
 
 msgid "Deleted items"
 msgstr "Eléments supprimés"
@@ -2952,7 +2963,7 @@ msgstr "Êtes-vous sûr de vouloir quitter l'assistant Overscan?"
 msgid "Do you want to reboot your receiver?"
 msgstr "Voulez-vous redémarrer votre récepteur?"
 
-msgid "Do you want to remove all the crahs logfiles"
+msgid "Do you want to remove all the crash logfiles"
 msgstr "Voulez-vous effacer tous les fichier logs de crash"
 
 msgid "Do you want to remove the package:\n"
@@ -6243,9 +6254,6 @@ msgstr "Seuil de puissance. Consulter le manuel de votre récepteur pour plus d�
 msgid "PowerMenu"
 msgstr "Menu alimentation"
 
-msgid "Powerless"
-msgstr ""
-
 msgid "Predefined transponder"
 msgstr "Transpondeur prédéfini"
 
@@ -6858,6 +6866,9 @@ msgstr "Restaurer sauvegardes"
 msgid "Restore defaults"
 msgstr "Restorer les valeurs par défaut"
 
+msgid "Restore deleted images"
+msgstr "Restaurer les images effacées"
+
 msgid "Restore deleted user bouquets"
 msgstr "Restaurer les bouquets utilisateurs supprimés"
 
@@ -6892,9 +6903,6 @@ msgstr "Reprise de la lecture"
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Récupération de la liste des images - Veuillez patienter ..."
-
-msgid "Retrieving image slots - Please wait..."
-msgstr "Récupération des emplacements d'images - Veuillez patienter..."
 
 msgid "Return to movie list"
 msgstr "Retour vers la liste des films"
@@ -8646,14 +8654,14 @@ msgstr "Basculer vers la chaîne suivante"
 msgid "Switch channel up"
 msgstr "Basculer vers la chaîne précédente"
 
-msgid "Switch off the display during Standby Mode"
-msgstr "Éteindre l’écran en mode veille"
+msgid "Switch on the display during Standby Mode"
+msgstr "Activer l’écran en mode veille"
 
-msgid "Switch off the display during Suspend Mode"
-msgstr "Eteindre l’affichage pendant la veille profonde"
+msgid "Switch on the display during Suspend Mode"
+msgstr "Activer l’affichage pendant la veille profonde"
 
-msgid "Switch off the display during operation."
-msgstr "Eteindre l’affichage en fonctionnement."
+msgid "Switch on the display during operation."
+msgstr "Activer l’affichage en fonctionnement."
 
 msgid "Switch to TV mode"
 msgstr "Basculer en mode TV"
@@ -8744,7 +8752,7 @@ msgstr ""
 "\n"
 "Traducteur: Pr2\n"
 "Support: www.openpli.org\n"
-"Dernière MAJ: 02-05-2020"
+"Dernière MAJ: 16-05-2020"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Fichier TS trop grand pour le niveau 1 ISO9660!"
@@ -9355,9 +9363,6 @@ msgstr "Basculer du mode TV/RADIO"
 msgid "Toggle a cut mark at the current position"
 msgstr "Commuter un marqueur coupé à cette position"
 
-msgid "Toggle aspect ratio..."
-msgstr "Basculer le format d’image…"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Basculer les scintillements en pointillés pour ce service"
 
@@ -9372,6 +9377,9 @@ msgstr "Inverser afficher/cacher"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Bascule entre le mode TV et le lecteur radio..."
+
+msgid "Toggle videomode"
+msgstr "Changer le mode vidéo"
 
 msgid "Togo"
 msgstr "Togo"
@@ -10394,14 +10402,14 @@ msgstr "Avec erreurs:"
 msgid "With popup"
 msgstr "Avec le popup"
 
-msgid "With this option you can switch off the display during operation."
-msgstr "Avec cette option, vous pouvez éteindre l’affichage en fonctionnement."
+msgid "With this option you can switch on the display during operation."
+msgstr "Avec cette option vous pouvez activer l’affichage en fonctionnement."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr "Avec cette option vous pouvez désactiver l’écran en mode veille profonde."
+msgid "With this option you can switch on the display in Deep Standby Mode."
+msgstr "Avec cette option vous pouvez activer l’écran en mode veille profonde."
 
-msgid "With this option you can switch off the display in Standby Mode."
-msgstr "Avec cette option, vous pouvez désactiver l’affichage en mode veille."
+msgid "With this option you can switch on the display in Standby Mode."
+msgstr "Avec cette option vous pouvez activer l’affichage en mode veille."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
 msgstr "Avec cette option, vous pouvez changer la couleur LED ou désactiver la LED."

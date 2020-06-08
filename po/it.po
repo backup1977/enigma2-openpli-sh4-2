@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
-"PO-Revision-Date: 2018-05-22 13:54+0200\n"
+"POT-Creation-Date: 2020-05-16 18:29+0200\n"
+"PO-Revision-Date: 2020-05-16 18:46+0200\n"
 "Last-Translator: Gringo <openpli@tiscali.it>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Previous-Translator: ngc1927 <ngc1927@gmail.com> 2016-06-12\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1057,6 +1057,10 @@ msgstr "Tutte le attività"
 msgid "Arabic"
 msgstr "Arabo"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Sei sicuro di riavviare"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Si desidera eliminare tutti i bouquet?"
 
@@ -1075,6 +1079,10 @@ msgstr "Si desidera eliminare tutti i canali terrestri?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Si desidera eliminare questa voce?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Si desidera eliminare tutti i canali via cavo?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1141,10 +1149,6 @@ msgid "Ask user"
 msgstr "Chiedere"
 
 msgid "Aspect ratio"
-msgstr "Rapporto d'aspetto"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Rapporto d'aspetto"
 
 msgid "Assigned CAIds:"
@@ -1860,6 +1864,10 @@ msgid "Collection settings"
 msgstr "Impostazioni raccolta"
 
 msgid "Colombia"
+msgstr "Colombia"
+
+#, fuzzy
+msgid "Color"
 msgstr "Colombia"
 
 msgid "Color format"
@@ -2641,6 +2649,10 @@ msgstr "Ritardo (ms) tra i caratteri scorrevoli sullo schermo."
 msgid "Delete"
 msgstr "Eliminare"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Eliminare l'immagine"
+
 msgid "Delete entry"
 msgstr "Eliminare la voce"
 
@@ -2673,6 +2685,10 @@ msgstr "Eliminare il timer"
 
 msgid "Deleted"
 msgstr "Eliminato"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Eliminare l'immagine"
 
 msgid "Deleted items"
 msgstr "Elementi eliminati"
@@ -2954,7 +2970,7 @@ msgstr "Uscire dalla regolazione guidata dell'overscan?"
 msgid "Do you want to reboot your receiver?"
 msgstr "Riavviare il ricevitore?"
 
-msgid "Do you want to remove all the crahs logfiles"
+msgid "Do you want to remove all the crash logfiles"
 msgstr "Eliminare tutti i file di registro dei crash?"
 
 msgid "Do you want to remove the package:\n"
@@ -6267,10 +6283,6 @@ msgstr "Limite di potenza. Consultare il manuale del ricevitore per ulteriori in
 msgid "PowerMenu"
 msgstr "Menu Accensione"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Menu Accensione"
-
 msgid "Predefined transponder"
 msgstr "Transponder predefinito"
 
@@ -6885,6 +6897,10 @@ msgstr "Ripristino dei backup"
 msgid "Restore defaults"
 msgstr "Ripristinare i valori"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Ripristinare i bouquet eliminati"
+
 msgid "Restore deleted user bouquets"
 msgstr "Ripristinare i bouquet eliminati"
 
@@ -6919,9 +6935,6 @@ msgstr "Ripresa della riproduzione..."
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Recupero dell'elenco delle immagini. Attendere..."
-
-msgid "Retrieving image slots - Please wait..."
-msgstr "Recupero della posizione delle immagini. Attendere..."
 
 msgid "Return to movie list"
 msgstr "Tornare all'elenco dei video"
@@ -8680,14 +8693,16 @@ msgstr "Passare al canale precedente"
 msgid "Switch channel up"
 msgstr "Passare al canale successivo"
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
 
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
+
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
 
 msgid "Switch to TV mode"
@@ -8772,20 +8787,7 @@ msgstr ""
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Traduzione italiana\n"
-"OpenPLi Enigma2\n"
-"a cura di Dario Croci\n"
-"\n"
-"Aggiornata da ngc1927 (ngc1927@gmail.com) il 12/06/2016\n"
-"\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 20/09/2016\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 21/01/2018\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 21/02/2018\n"
-"\n"
-"Aggiornata da Gringo (openpli@tiscali.it) il 06/03/2018\n"
-"\n"
-"Aggiornata da gigabite il 19/11/2019\n"
-"\n"
-"Ultimo aggiornamento: 19 novembre 2019"
+"OpenPLi Enigma2"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "File TS troppo grande per ISO9660 livello 1!"
@@ -9399,10 +9401,6 @@ msgstr "Attivare/disattivare la modalità TV/RADIO"
 msgid "Toggle a cut mark at the current position"
 msgstr "Aggiungere/eliminare un marcatore di taglio nella posizione attuale"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Rapporto d'aspetto"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Attivare/disattivare le linee tratteggiate tremolanti ai bordi di questo canale"
 
@@ -9417,6 +9415,10 @@ msgstr "Attivare/disattivare mostrare/nascondere"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Attivare/disattivare il lettore TV e radio..."
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Selezionare la modalità video"
 
 msgid "Togo"
 msgstr "Togo"
@@ -10440,14 +10442,15 @@ msgid "With popup"
 msgstr "Con un popup"
 
 #, fuzzy
-msgid "With this option you can switch off the display during operation."
+msgid "With this option you can switch on the display during operation."
 msgstr "Questa opzione consente di spegnere il display."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
+#, fuzzy
+msgid "With this option you can switch on the display in Deep Standby Mode."
+msgstr "Questa opzione consente di spegnere il display."
 
 #, fuzzy
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr "Questa opzione consente di spegnere il display."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
