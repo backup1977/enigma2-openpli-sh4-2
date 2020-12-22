@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-06 11:42+0100\n"
-"PO-Revision-Date: 2020-12-06 11:59+0100\n"
+"POT-Creation-Date: 2020-12-21 17:43+0100\n"
+"PO-Revision-Date: 2020-12-21 17:45+0100\n"
 "Last-Translator: GeirJ <dummy@dummy.com>\n"
 "Language-Team: GeirJ\n"
 "Language: nb\n"
@@ -694,7 +694,7 @@ msgstr ""
 "Slå av TV og prøv igjen?\n"
 
 msgid "A/V settings"
-msgstr "Lyd og bilde innstilling"
+msgstr "A/V innstilling"
 
 msgid "AAC downmix"
 msgstr "AAC nedskalering"
@@ -2643,10 +2643,10 @@ msgid "Display EPG list for current channel"
 msgstr "Vis EPG-listen for aktuell kanal"
 
 msgid "Display Skin"
-msgstr "Display Skin"
+msgstr "Display Utseende"
 
 msgid "Display and userinterface"
-msgstr "Skjerm og oppsett"
+msgstr "Display og oppsett"
 
 msgid "Display movie length in movielist (except single line style)."
 msgstr "Vis film lengde i opptaksliste (unntatt en linje stil)."
@@ -3682,14 +3682,14 @@ msgid "GStreamer version: "
 msgstr "Gstreamer versjon: "
 
 msgid "GUI Skin"
-msgstr "GUI innstilling"
+msgstr "GUI Utseende"
 
 msgid ""
 "GUI needs a restart to apply a new language\n"
 "Do you want to restart the GUI now?"
 msgstr ""
-"GUI må startes på nytt for aktivering av et nytt språk\n"
-"Starte GUI på nytt nå?"
+"GUI trenger en omstart for å bruke et nytt språk\n"
+"Vil du starte GUI på nytt nå?"
 
 msgid "Gabon"
 msgstr "Gabon"
@@ -8449,7 +8449,7 @@ msgstr "System"
 
 #
 msgid "System & Modulation"
-msgstr "System - Modulasjon"
+msgstr "System & Modulasjon"
 
 msgid "T2MI PID"
 msgstr "T2MI PID"
@@ -8468,7 +8468,7 @@ msgstr "Tekst"
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "Oversettelse til norsk bokmål oppdatert: 06.12.2020"
+msgstr "Oversettelse til norsk bokmål oppdatert: 21.12.2020"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -8507,7 +8507,7 @@ msgstr "Tanzania"
 
 #
 msgid "Temperature and fan control"
-msgstr "Temperatur og kjølevifte styring"
+msgstr "Temperatur- og viftekontroll"
 
 #
 msgid "Terrestrial"
@@ -8528,7 +8528,7 @@ msgid "Testscreens"
 msgstr "Prøvebilder"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
-msgstr "Prøvebilder som kan brukes til å finjustere din TV"
+msgstr "Prøvebilder som kan brukes til å finjustere skjermen"
 
 msgid "Text View On"
 msgstr "Tekstvisning på"
@@ -8556,7 +8556,7 @@ msgid "The PIN code has been saved successfully."
 msgstr "PIN koden har blitt lagret."
 
 msgid "The PIN codes you entered are different."
-msgstr "Feil PIN kode er tastet."
+msgstr "PIN-kodene du har angitt, er forskjellige."
 
 msgid "The command to wake from standby will be sent multiple times."
 msgstr "Slå på kommandoen fra standby vil sendes flere ganger."
@@ -8615,9 +8615,9 @@ msgid ""
 "\n"
 "Test Pattern by TigerDave - www.tigerdave.com/ht_menu.htm"
 msgstr ""
-"Veiviseren for bildestørrelse hjelper deg å stille inn din TV på riktig måte.\n"
+"Veiviseren for ekte bildestørrelse hjelper deg å stille inn din TV på riktig måte.\n"
 "\n"
-"De fleste TV merker har som standard fabrikkinnstilling valgt et forstørret bilde. Dette betyr at du alltid ser på et \"oppblåst\" bilde der deler av det grafiske HD utseende (skin) blir borte, istedenfor et ekte HD bilde.\n"
+"De fleste TV-er har som standard fabrikkinnstilling valgt et forstørret bilde. Dette betyr at du alltid ser på et \"oppblåst\" bilde der deler av det grafiske HD utseende (skin) blir borte, istedenfor et ekte HD bilde.\n"
 "\n"
 "Den gule rammen betyr at 5% av området for full HD bilde blir borte.\n"
 "Den grønne rammen betyr at 10% av området for full HD bilde blir borte.\n"
@@ -9134,7 +9134,7 @@ msgstr "Oversettelse"
 
 #
 msgid "Translations"
-msgstr "Oversettelser"
+msgstr "Oversettelse"
 
 #
 msgid "Transmission mode"
@@ -9445,7 +9445,7 @@ msgstr "Uruguay"
 
 #
 msgid "Usage Setup"
-msgstr "Bruker innstilling"
+msgstr "Bruker valg"
 
 #
 msgid "Use"
@@ -11410,7 +11410,7 @@ msgid "zapped"
 msgstr "gått til"
 
 msgid "Audio / Video"
-msgstr "Hoved innstilling"
+msgstr "Lyd / Bilde"
 
 msgid "Automatic scan"
 msgstr "Automatisk søk"
@@ -11539,7 +11539,7 @@ msgid "Audio language selection 4"
 msgstr "Språkvalg 4"
 
 msgid "Auto language selection"
-msgstr "Språk innstilling"
+msgstr "Automatisk språk innstilling"
 
 msgid "Auto play last service in radio mode"
 msgstr "Auto start av siste kanal i radiomodus"
